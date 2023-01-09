@@ -1,1 +1,4 @@
 /* This is all you. */
+.hero h1 strong {
+ @apply text-green-scalp-light;
+}
