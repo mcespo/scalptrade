@@ -1,6 +1,9 @@
 // This is all you.
-import Alpine from 'alpinejs'
+import Alpine from 'alpinejs';
+import intersect from '@alpinejs/intersect';
 
-window.Alpine = Alpine
+window.Alpine = Alpine;
 
-Alpine.start()
+Alpine.plugin(intersect);
+
+Alpine.start();
