@@ -3483,16 +3483,16 @@
         },
         {
             "name": "nette/utils",
-            "version": "v3.2.8",
+            "version": "v3.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "02a54c4c872b99e4ec05c4aec54b5a06eb0f6368"
+                "reference": "c91bac3470c34b2ecd5400f6e6fdf0b64a836a5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/02a54c4c872b99e4ec05c4aec54b5a06eb0f6368",
-                "reference": "02a54c4c872b99e4ec05c4aec54b5a06eb0f6368",
+                "url": "https://api.github.com/repos/nette/utils/zipball/c91bac3470c34b2ecd5400f6e6fdf0b64a836a5c",
+                "reference": "c91bac3470c34b2ecd5400f6e6fdf0b64a836a5c",
                 "shasum": ""
             },
             "require": {
@@ -3502,6 +3502,7 @@
                 "nette/di": "<3.0.6"
             },
             "require-dev": {
+                "jetbrains/phpstorm-attributes": "dev-master",
                 "nette/tester": "~2.0",
                 "phpstan/phpstan": "^1.0",
                 "tracy/tracy": "^2.3"
@@ -3562,9 +3563,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v3.2.8"
+                "source": "https://github.com/nette/utils/tree/v3.2.9"
             },
-            "time": "2022-09-12T23:36:20+00:00"
+            "time": "2023-01-18T03:26:20+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -4962,16 +4963,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.3.64",
+            "version": "v3.3.65",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "969e4932d854f9cab79739ce0c0e5d76b95fd4b6"
+                "reference": "ed9ee7685272492ce537067f4b623c20efc5385f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/969e4932d854f9cab79739ce0c0e5d76b95fd4b6",
-                "reference": "969e4932d854f9cab79739ce0c0e5d76b95fd4b6",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/ed9ee7685272492ce537067f4b623c20efc5385f",
+                "reference": "ed9ee7685272492ce537067f4b623c20efc5385f",
                 "shasum": ""
             },
             "require": {
@@ -4988,6 +4989,7 @@
                 "league/glide": "^1.1 || ^2.0",
                 "maennchen/zipstream-php": "^2.2",
                 "michelf/php-smartypants": "^1.8.1",
+                "nesbot/carbon": "^2.62.1",
                 "pixelfear/composer-dist-plugin": "^0.1.4",
                 "rebing/graphql-laravel": "^6.5 || ^8.0",
                 "spatie/blink": "^1.1.2",
@@ -5050,7 +5052,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.3.64"
+                "source": "https://github.com/statamic/cms/tree/v3.3.65"
             },
             "funding": [
                 {
@@ -5058,7 +5060,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-01-06T21:07:04+00:00"
+            "time": "2023-01-18T21:12:52+00:00"
         },
         {
             "name": "statamic/stringy",
