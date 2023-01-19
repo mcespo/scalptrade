@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d556667c92c687e48f6e84f6e3402c82",
+    "content-hash": "1d9855a200a83982e6df16afe41a66e3",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -4909,6 +4909,56 @@
                 }
             ],
             "time": "2022-01-05T09:38:04+00:00"
+        },
+        {
+            "name": "spatie/statamic-responsive-images",
+            "version": "v2.15.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/statamic-responsive-images.git",
+                "reference": "a13cf34a70a366d0fa804c5a3c5254d1761e36fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/statamic-responsive-images/zipball/a13cf34a70a366d0fa804c5a3c5254d1761e36fd",
+                "reference": "a13cf34a70a366d0fa804c5a3c5254d1761e36fd",
+                "shasum": ""
+            },
+            "require": {
+                "statamic/cms": "~3.3"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.9|^7.1",
+                "pestphp/pest": "^1.22",
+                "spatie/pest-plugin-snapshots": "^1.1"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "statamic": {
+                    "name": "Responsive Images",
+                    "description": "Responsive Images for Statamic 3"
+                },
+                "laravel": {
+                    "providers": [
+                        "Spatie\\ResponsiveImages\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\ResponsiveImages\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Responsive Images for Statamic 3",
+            "support": {
+                "issues": "https://github.com/spatie/statamic-responsive-images/issues",
+                "source": "https://github.com/spatie/statamic-responsive-images/tree/v2.15.1"
+            },
+            "time": "2023-01-12T20:14:50+00:00"
         },
         {
             "name": "statamic/cms",
