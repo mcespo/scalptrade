@@ -1,12 +1,15 @@
 title: Page
 sections:
   main:
+    display: Main
     fields:
       -
         handle: title
         field:
           type: text
           required: true
+          validate:
+            - required
       -
         handle: content
         field:
@@ -14,20 +17,13 @@ sections:
           display: Content
           localizable: true
       -
-        handle: author
-        field:
-          type: users
-          display: Author
-          default: current
-          localizable: true
-          max_items: 1
-      -
         handle: template
         field:
           type: template
           display: Template
           localizable: true
   sidebar:
+    display: Sidebar
     fields:
       -
         handle: slug
