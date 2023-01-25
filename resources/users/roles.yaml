@@ -1,6 +1,7 @@
 editor:
   title: Editor
   permissions:
+    - 'access cp'
     - 'configure collections'
     - 'view pages entries'
     - 'edit pages entries'
@@ -24,3 +25,5 @@ editor:
     - 'create users'
     - 'delete users'
     - 'change passwords'
+    - 'assign user groups'
+    - 'assign roles'
