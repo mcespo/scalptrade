@@ -17,18 +17,6 @@ sections:
           input_type: text
           antlers: false
       -
-        handle: location
-        field:
-          input_type: text
-          antlers: false
-          display: Location
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
         handle: about_the_position
         field:
           type: markdown
@@ -116,4 +104,34 @@ sections:
         field:
           type: slug
           localizable: true
+      -
+        handle: department
+        field:
+          options:
+            Engineering: null
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: Department
+          type: select
+          icon: select
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: location
+        field:
+          input_type: text
+          antlers: false
+          display: Location
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
 title: Career
