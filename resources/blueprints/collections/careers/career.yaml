@@ -134,4 +134,16 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+      -
+        handle: template_field
+        field:
+          hide_partials: true
+          blueprint: false
+          display: 'Template Field'
+          type: template
+          icon: template
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
 title: Career
