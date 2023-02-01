@@ -22,6 +22,6 @@ you_should_have: |-
   • Major in an engineering or technical field
 who_we_are: 'We are a leading multi-strategy trading firm. We hold a unique position in the industry with our balanced use of logic, technology and speed. In this role, you will work directly with traders, and developers to design, build, test and maintain real-time trading applications.'
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1675289867
+updated_at: 1675289909
 department: Engineering
 ---
