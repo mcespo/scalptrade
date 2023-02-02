@@ -10,3 +10,7 @@ preferences:
       columns:
         - title
         - slug
+    members:
+      columns:
+        - title
+        - job_title
