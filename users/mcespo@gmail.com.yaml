@@ -14,3 +14,5 @@ preferences:
       columns:
         - title
         - job_title
+    pages:
+      after_save: continue_editing
