@@ -2,13 +2,13 @@
 id: home
 blueprint: page
 title: Home
-template: home
+template: default
 hero_title: |-
   Edge driven by 
   **logic, technology,
   and speed.**
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1675316197
+updated_at: 1675316247
 hero_image: 2022-12-13-10.29.54-scalp-0092.jpg
 featured_hero_image:
   src: 2022-12-13-10.29.54-scalp-0092.jpg
