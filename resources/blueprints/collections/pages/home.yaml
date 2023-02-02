@@ -1,5 +1,104 @@
-title: home
+title: Home
 sections:
   main:
     display: Main
-    fields: {  }
+    fields:
+      -
+        handle: featured_hero_image
+        field:
+          use_breakpoints: false
+          allow_ratio: false
+          allow_fit: true
+          breakpoints:
+            - sm
+            - md
+            - lg
+            - xl
+            - 2xl
+          restrict: false
+          allow_uploads: true
+          display: 'Featured Hero Image'
+          type: responsive
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          duplicate: false
+      -
+        handle: hero_title
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Hero Title'
+          type: markdown
+          icon: markdown
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: content
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: Content
+          type: markdown
+          icon: markdown
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: content_image
+        field:
+          use_breakpoints: true
+          allow_ratio: true
+          allow_fit: true
+          breakpoints:
+            - sm
+            - md
+            - lg
+            - xl
+            - 2xl
+          restrict: false
+          allow_uploads: true
+          display: 'Content Image'
+          type: responsive
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
