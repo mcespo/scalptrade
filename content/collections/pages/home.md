@@ -1,6 +1,6 @@
 ---
 id: home
-blueprint: hero
+blueprint: page
 title: Home
 template: home
 hero_title: |-
