@@ -1,5 +1,12 @@
 title: Careers
+template: default
+layout: job-description
 revisions: false
+sort_dir: asc
 date_behavior:
   past: public
   future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
