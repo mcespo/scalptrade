@@ -4,7 +4,7 @@ blueprint: careers
 title: Careers
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1675374194
+updated_at: 1675374955
 template: careers
 image:
   src: 2022-12-13-10.15.25-scalp-0060.jpg
