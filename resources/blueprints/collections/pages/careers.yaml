@@ -27,7 +27,7 @@ sections:
           visibility: visible
           always_save: false
       -
-        handle: image
+        handle: content_image
         field:
           use_breakpoints: false
           allow_ratio: false
@@ -40,7 +40,7 @@ sections:
             - 2xl
           restrict: false
           allow_uploads: true
-          display: Image
+          display: 'Content Image'
           type: responsive
           icon: assets
           listable: hidden
