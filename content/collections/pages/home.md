@@ -1,6 +1,6 @@
 ---
 id: home
-blueprint: hero
+blueprint: home
 title: Home
 template: home
 hero_title: |-
@@ -8,7 +8,7 @@ hero_title: |-
   **logic, technology,
   and speed.**
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1674106624
+updated_at: 1675316608
 hero_image: 2022-12-13-10.29.54-scalp-0092.jpg
 featured_hero_image:
   src: 2022-12-13-10.29.54-scalp-0092.jpg

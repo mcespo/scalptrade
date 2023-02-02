@@ -1,46 +1,8 @@
-title: Hero
+title: Careers
 sections:
   main:
     display: Main
     fields:
-      -
-        handle: featured_hero_image
-        field:
-          use_breakpoints: false
-          allow_ratio: false
-          allow_fit: true
-          breakpoints:
-            - sm
-            - md
-            - lg
-            - xl
-            - 2xl
-          restrict: false
-          allow_uploads: true
-          display: 'Featured Hero Image'
-          type: responsive
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          duplicate: false
-      -
-        handle: hero_title
-        field:
-          restrict: false
-          automatic_line_breaks: true
-          automatic_links: false
-          escape_markup: false
-          smartypants: false
-          antlers: false
-          display: 'Hero Title'
-          type: markdown
-          icon: markdown
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
       -
         handle: title
         field:
@@ -48,6 +10,22 @@ sections:
           required: true
           validate:
             - required
+      -
+        handle: content
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: Content
+          type: markdown
+          icon: markdown
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
       -
         handle: content_image
         field:
@@ -61,7 +39,7 @@ sections:
             - xl
             - 2xl
           restrict: false
-          allow_uploads: false
+          allow_uploads: true
           display: 'Content Image'
           type: responsive
           icon: assets
@@ -71,17 +49,13 @@ sections:
           always_save: false
           duplicate: false
       -
-        handle: content
+        handle: display_jobs_list
         field:
-          restrict: false
-          automatic_line_breaks: true
-          automatic_links: false
-          escape_markup: false
-          smartypants: false
-          antlers: false
-          display: Content
-          type: markdown
-          icon: markdown
+          default: true
+          display: 'Display Jobs List'
+          type: toggle
+          icon: toggle
+          instructions: 'Enabling this displays the list of available jobs. Please disable when not actively hiring for any roles.'
           listable: hidden
           instructions_position: above
           visibility: visible
