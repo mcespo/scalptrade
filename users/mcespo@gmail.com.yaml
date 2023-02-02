@@ -3,3 +3,7 @@ super: true
 avatar: team/marvin-cespedes-2017-profile-image_2_500.jpg
 id: bebd7e43-446f-4387-a853-3c3100b5110c
 password_hash: $2y$10$gMt2bDU50iDRzFUZcf1u2OKYtU.HyDSzJ/Bn7mg3IADy.qoLy8zVG
+preferences:
+  collections:
+    careers:
+      after_save: continue_editing
