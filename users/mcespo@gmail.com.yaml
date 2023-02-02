@@ -7,3 +7,6 @@ preferences:
   collections:
     careers:
       after_save: continue_editing
+      columns:
+        - title
+        - slug
