@@ -146,4 +146,11 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-title: Career
+      -
+        handle: date
+        field:
+          type: date
+          required: true
+          validate:
+            - required
+title: Role
