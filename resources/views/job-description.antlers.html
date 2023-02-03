@@ -2,6 +2,7 @@
     <!-- Header -->
     <div class="relative bg-gray-800 pb-32">
         <div class="absolute inset-0">
+            {{ responsive:featured_hero_image quality:webp="50" md:quality:webp="75" lg:quality:webp="100" class="h-full w-full object-cover" }}
             <div class="absolute inset-0 bg-gray-800 mix-blend-multiply" aria-hidden="true"></div>
         </div>
         <div class="relative mx-auto max-w-7xl py-24 px-6 sm:py-32 lg:px-8">
@@ -40,16 +41,6 @@
       </div>
     </div>
     <div class="relative px-6 lg:px-8">
-        <div class="prose prose-lg prose-indigo mx-auto mt-6 text-gray-500">
-            <div>
-                <h2>About the Position</h2>
-                {{ about_the_position }}
-                {{ wholl_love_this_job }}
-                {{ what_youll_do }}
-                {{ you_should_have }}
-                {{ who_we_are }}
-            </div>
-        </div>
-
+        {{ partial:job-description }}
     </div>
   </div>
