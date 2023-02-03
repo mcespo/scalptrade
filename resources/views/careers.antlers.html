@@ -1,35 +1,66 @@
+<div class="bg-white">
+    <!-- Header -->
+<div class="relative bg-gray-800 pb-32">
+<div class="absolute inset-0">
+    {{ responsive:featured_hero_image quality:webp="50" md:quality:webp="75" lg:quality:webp="100" class="h-full w-full object-cover" }}
+    <div class="absolute inset-0 bg-gray-800 mix-blend-multiply" aria-hidden="true"></div>
+</div>
+<div class="relative mx-auto max-w-7xl py-24 px-6 sm:py-32 lg:px-8">
+<h1 class="text-4xl font-display tracking-tight text-white md:text-5xl lg:text-6xl">{{ title }}</h1>
+</div>
+</div>
+</div>
+
 <!--
-  This example requires some changes to your config:
+This example requires some changes to your config:
 
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/typography'),
-    ],
-  }
-  ```
+```
+// tailwind.config.js
+module.exports = {
+// ...
+plugins: [
+  // ...
+  require('@tailwindcss/typography'),
+  require('@tailwindcss/aspect-ratio'),
+],
+}
+```
 -->
-<div class="relative bg-white">
-    <div class="lg:absolute lg:inset-0">
-        <div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
-            {{ responsive:content_image quality:webp="50" md:quality:webp="75" lg:quality:webp="100" class="h-56 w-full object-cover lg:absolute lg:h-full" }}
-        </div>
-    </div>
-    <div class="relative px-6 pt-12 pb-16 sm:pt-16 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8">
-        <div class="lg:col-start-2 lg:pl-8">
-            <div class="mx-auto max-w-prose text-base lg:ml-auto lg:mr-0 lg:max-w-lg">
-                <h2 class="font-semibold leading-6 text-indigo-600">{{ title }}</h2>
-                <div class="prose prose-indigo mt-5 text-gray-500">
-                    {{ content }}
-
-                </div>
+<div class="overflow-hidden bg-white">
+    <div class="relative mx-auto max-w-7xl py-16 px-6 lg:px-8">
+        <div class="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block"></div>
+        <div class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
+            <div>
+                <h2 class="text-lg font-semibold text-indigo-600"></h2>
+                <h3 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">Work with Us</h3>
             </div>
         </div>
-    </div>
-</div>
+        <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
+            <div class="relative lg:col-start-2 lg:row-start-1">
+                <svg class="absolute top-0 right-0 -mt-20 -mr-20 hidden lg:block" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
+                    <defs>
+                        <pattern id="de316486-4a29-4312-bdfc-fbce2132a2c1" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                        </pattern>
+                    </defs>
+                    <rect width="404" height="384" fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)" />
+                </svg>
+                <div class="relative mx-auto max-w-prose text-base lg:max-w-none">
+                    <figure>
+                        <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
+    {{ responsive:content_image quality:webp="50" md:quality:webp="75" lg:quality:webp="100" class="rounded-lg object-cover object-center shadow-lg" }}
+     </div>
+                    </figure>
+                </div>
+            </div>
+            <div class="mt-8 lg:mt-0">
+                <div class="prose-lg prose-indigo mx-auto mt-5 mb-12 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
+                    {{ content }}
+                </div>
+            </div>
     {{ if display_jobs_list }}
     {{ partial:jobs-list }}
     {{ /if }}
+        </div>
+    </div>
+</div>
