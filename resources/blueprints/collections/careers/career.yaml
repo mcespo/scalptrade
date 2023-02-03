@@ -3,6 +3,28 @@ sections:
     display: Main
     fields:
       -
+        handle: featured_hero_image
+        field:
+          use_breakpoints: false
+          allow_ratio: false
+          allow_fit: true
+          breakpoints:
+            - sm
+            - md
+            - lg
+            - xl
+            - 2xl
+          restrict: false
+          allow_uploads: true
+          display: 'Featured Hero Image'
+          type: responsive
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          duplicate: false
+      -
         handle: title
         field:
           type: text
