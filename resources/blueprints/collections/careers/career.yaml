@@ -39,6 +39,26 @@ sections:
           input_type: text
           antlers: false
       -
+        handle: job_type
+        field:
+          options:
+            Full-time: null
+            Part-time: null
+            Contract: null
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: 'Job Type'
+          type: select
+          icon: select
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
         handle: location
         field:
           input_type: text
@@ -144,26 +164,6 @@ sections:
           display: 'Who we are'
           type: markdown
           icon: markdown
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: job_type
-        field:
-          options:
-            Full-time: null
-            Part-time: null
-            Contract: null
-          multiple: false
-          clearable: false
-          searchable: true
-          taggable: false
-          push_tags: false
-          cast_booleans: false
-          display: 'Job Type'
-          type: select
-          icon: select
           listable: hidden
           instructions_position: above
           visibility: visible
