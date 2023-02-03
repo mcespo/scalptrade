@@ -4,11 +4,13 @@ blueprint: careers
 title: Careers
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1675375488
+updated_at: 1675400137
 template: careers
 display_jobs_list: true
 content_image:
   src: 2022-12-13-10.15.25-scalp-0060.jpg
+featured_hero_image:
+  src: 2022-12-13-10.23.35-scalp-0075.jpg
 ---
 ScalpTrade is a group of driven, dynamic individuals focused on deep problem solving, with the desire to be a positive force in the capital markets. We are a privately-funded company that is owned and managed by trading professionals who have set high standards around trust, leadership and integrity, we have an absolute commitment to doing it right.
 
