@@ -4,10 +4,10 @@ blueprint: page
 title: Philanthropy
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1676047165
+updated_at: 1676047187
 content_image:
   src: footer-bg.jpg
-template: default
+template: contact
 ---
 ## Covenant House
 
