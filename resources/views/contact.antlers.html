@@ -1,3 +1,4 @@
+
 <div class="bg-white">
     <!-- Header -->
 <div class="relative bg-gray-800 pb-32">
@@ -58,9 +59,26 @@ plugins: [
                     {{ content }}
                 </div>
             </div>
-    {{ if display_jobs_list }}
-    {{ partial:jobs-list }}
-    {{ /if }}
+            <div class="prose">
+                {{ form:contact }}
+                    {{ if success }}<p>Thank you for reaching out, someone will contact you within 48 business hours</p>{{ /if }}
+                    {{ if errors }}<p>please fix the errors below</p>
+                    {{ errors }}
+                        {{ value }}
+                    {{ /errors }}
+                    {{ /if }}
+                     <div class="mx-auto max-w-lg lg:max-w-none">
+                    {{ fields }}
+                        <div class="flex">
+                            {{ field }}
+                        </div>
+                    {{ /fields }}
+                        <div>
+                            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Submit</button>
+                        </div>
+                    </div>
+                {{ /form:contact }}
+            </div>
         </div>
     </div>
 </div>
