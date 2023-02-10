@@ -20,7 +20,7 @@ sections:
       -
         handle: email
         field:
-          placeholder: you@youremail.com
+          placeholder: you@email.com
           input_type: text
           antlers: false
           display: Email
