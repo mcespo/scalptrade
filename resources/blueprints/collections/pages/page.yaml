@@ -45,12 +45,6 @@ sections:
           use_breakpoints: true
           allow_ratio: true
           allow_fit: true
-          breakpoints:
-            - sm
-            - md
-            - lg
-            - xl
-            - 2xl
           restrict: false
           allow_uploads: true
           display: 'Content Image'
