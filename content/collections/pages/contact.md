@@ -4,6 +4,7 @@ blueprint: page
 title: Contact
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1673241470
+updated_at: 1676006764
+template: contact
 ---
 Contact Page
