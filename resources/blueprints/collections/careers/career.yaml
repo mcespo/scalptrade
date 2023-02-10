@@ -3,6 +3,28 @@ sections:
     display: Main
     fields:
       -
+        handle: featured_hero_image
+        field:
+          use_breakpoints: false
+          allow_ratio: false
+          allow_fit: true
+          breakpoints:
+            - sm
+            - md
+            - lg
+            - xl
+            - 2xl
+          restrict: false
+          allow_uploads: true
+          display: 'Featured Hero Image'
+          type: responsive
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          duplicate: false
+      -
         handle: title
         field:
           type: text
@@ -16,6 +38,56 @@ sections:
           always_save: false
           input_type: text
           antlers: false
+      -
+        handle: job_type
+        field:
+          options:
+            Full-time: null
+            Part-time: null
+            Contract: null
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: 'Job Type'
+          type: select
+          icon: select
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: location
+        field:
+          input_type: text
+          antlers: false
+          display: Location
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: department
+        field:
+          options:
+            Engineering: null
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: Department
+          type: select
+          icon: select
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
       -
         handle: about_the_position
         field:
@@ -105,35 +177,12 @@ sections:
           type: slug
           localizable: true
       -
-        handle: department
+        handle: date
         field:
-          options:
-            Engineering: null
-          multiple: false
-          clearable: false
-          searchable: true
-          taggable: false
-          push_tags: false
-          cast_booleans: false
-          display: Department
-          type: select
-          icon: select
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: location
-        field:
-          input_type: text
-          antlers: false
-          display: Location
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
+          type: date
+          required: true
+          validate:
+            - required
       -
         handle: template_field
         field:
@@ -146,11 +195,4 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: date
-        field:
-          type: date
-          required: true
-          validate:
-            - required
 title: Role
