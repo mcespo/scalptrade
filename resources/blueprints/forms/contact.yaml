@@ -1,0 +1,64 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: name
+        field:
+          placeholder: 'First and Last Name'
+          input_type: text
+          antlers: false
+          display: Name
+          type: text
+          icon: text
+          instructions: 'Full Name'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          validate:
+            - required
+      -
+        handle: email
+        field:
+          placeholder: you@youremail.com
+          input_type: text
+          antlers: false
+          display: Email
+          type: text
+          icon: text
+          instructions: 'Email Address'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          validate:
+            - required
+            - email
+      -
+        handle: phone
+        field:
+          placeholder: '+1 312-555-5555'
+          input_type: text
+          character_limit: 15
+          antlers: false
+          display: Phone
+          type: text
+          icon: text
+          instructions: 'Phone Number'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          validate:
+            - 'regex:^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$'
+      -
+        handle: message
+        field:
+          antlers: false
+          display: Message
+          type: textarea
+          icon: textarea
+          instructions: Message
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          validate:
+            - required
