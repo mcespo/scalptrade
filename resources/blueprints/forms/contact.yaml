@@ -62,3 +62,4 @@ sections:
           visibility: visible
           validate:
             - required
+          placeholder: 'Enter your message here...'
