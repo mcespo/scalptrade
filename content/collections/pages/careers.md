@@ -4,7 +4,7 @@ blueprint: careers
 title: Careers
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1676093143
+updated_at: 1676095518
 template: careers
 display_jobs_list: true
 content_image:

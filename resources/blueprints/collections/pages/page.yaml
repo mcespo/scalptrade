@@ -1,14 +1,21 @@
 title: Page
 sections:
-  main:
-    display: Main
+  header:
+    display: Header
     fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
       -
         handle: featured_hero_image
         field:
           use_breakpoints: false
           allow_ratio: false
-          allow_fit: true
+          allow_fit: false
           breakpoints:
             - sm
             - md
@@ -25,19 +32,30 @@ sections:
           visibility: visible
           always_save: false
           duplicate: false
+  main:
+    display: Main
+    fields:
       -
-        handle: title
+        handle: content_title
         field:
           type: text
-          required: true
-          validate:
-            - required
+          display: 'Content Title'
       -
         handle: content
         field:
-          type: markdown
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
           display: Content
-          localizable: true
+          type: markdown
+          icon: markdown
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
       -
         handle: content_image
         field:
