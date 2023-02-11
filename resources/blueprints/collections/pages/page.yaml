@@ -15,7 +15,6 @@ sections:
             - lg
             - xl
             - 2xl
-          container: assets
           restrict: false
           allow_uploads: true
           display: 'Featured Hero Image'
@@ -42,9 +41,9 @@ sections:
       -
         handle: content_image
         field:
-          use_breakpoints: true
-          allow_ratio: true
-          allow_fit: true
+          use_breakpoints: false
+          allow_ratio: false
+          allow_fit: false
           restrict: false
           allow_uploads: true
           display: 'Content Image'
@@ -53,12 +52,6 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
-      -
-        handle: template
-        field:
-          type: template
-          display: Template
-          localizable: true
   sidebar:
     display: Sidebar
     fields:
@@ -75,4 +68,10 @@ sections:
             - pages
           max_items: 1
           listable: false
+          localizable: true
+      -
+        handle: template
+        field:
+          type: template
+          display: Template
           localizable: true
