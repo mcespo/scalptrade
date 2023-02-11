@@ -4,12 +4,12 @@ blueprint: page
 title: Philanthropy
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1676095815
+updated_at: 1676095824
 content_image:
   src: footer-bg.jpg
 featured_hero_image:
   src: 2022-12-13-09.48.24-scalp-0011.jpg
-template: page-with-content-image
+template: default
 content_title: 'Covenant House'
 ---
 ![Covenant House](https://scalptrade.test/assets/logo.png)
