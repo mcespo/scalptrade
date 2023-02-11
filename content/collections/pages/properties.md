@@ -4,6 +4,7 @@ blueprint: page
 title: Properties
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1673930285
+updated_at: 1676095090
+template: default
 ---
 Properties Page.

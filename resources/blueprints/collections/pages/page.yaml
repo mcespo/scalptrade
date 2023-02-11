@@ -1,21 +1,27 @@
 title: Page
 sections:
-  main:
-    display: Main
+  header:
+    display: Header
     fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
       -
         handle: featured_hero_image
         field:
           use_breakpoints: false
           allow_ratio: false
-          allow_fit: true
+          allow_fit: false
           breakpoints:
             - sm
             - md
             - lg
             - xl
             - 2xl
-          container: assets
           restrict: false
           allow_uploads: true
           display: 'Featured Hero Image'
@@ -26,25 +32,36 @@ sections:
           visibility: visible
           always_save: false
           duplicate: false
+  main:
+    display: Main
+    fields:
       -
-        handle: title
+        handle: content_title
         field:
           type: text
-          required: true
-          validate:
-            - required
+          display: 'Content Title'
       -
         handle: content
         field:
-          type: markdown
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
           display: Content
-          localizable: true
+          type: markdown
+          icon: markdown
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
       -
         handle: content_image
         field:
-          use_breakpoints: true
-          allow_ratio: true
-          allow_fit: true
+          use_breakpoints: false
+          allow_ratio: false
+          allow_fit: false
           restrict: false
           allow_uploads: true
           display: 'Content Image'
@@ -53,12 +70,6 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
-      -
-        handle: template
-        field:
-          type: template
-          display: Template
-          localizable: true
   sidebar:
     display: Sidebar
     fields:
@@ -75,4 +86,10 @@ sections:
             - pages
           max_items: 1
           listable: false
+          localizable: true
+      -
+        handle: template
+        field:
+          type: template
+          display: Template
           localizable: true

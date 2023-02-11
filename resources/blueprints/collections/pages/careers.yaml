@@ -1,8 +1,15 @@
 title: Careers
 sections:
-  main:
-    display: Main
+  header:
+    display: Header
     fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
       -
         handle: featured_hero_image
         field:
@@ -25,13 +32,14 @@ sections:
           visibility: visible
           always_save: false
           duplicate: false
+  main:
+    display: Main
+    fields:
       -
-        handle: title
+        handle: content_title
         field:
           type: text
-          required: true
-          validate:
-            - required
+          display: 'Content Title'
       -
         handle: content
         field:
@@ -54,12 +62,6 @@ sections:
           use_breakpoints: false
           allow_ratio: false
           allow_fit: false
-          breakpoints:
-            - sm
-            - md
-            - lg
-            - xl
-            - 2xl
           restrict: false
           allow_uploads: true
           display: 'Content Image'
@@ -68,8 +70,6 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
-          always_save: false
-          duplicate: false
       -
         handle: display_jobs_list
         field:
@@ -98,4 +98,10 @@ sections:
             - pages
           max_items: 1
           listable: false
+          localizable: true
+      -
+        handle: template
+        field:
+          type: template
+          display: Template
           localizable: true
