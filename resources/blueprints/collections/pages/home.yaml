@@ -4,6 +4,13 @@ sections:
     display: Header
     fields:
       -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
         handle: hero_title
         field:
           restrict: false
@@ -19,13 +26,6 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: title
-        field:
-          type: text
-          required: true
-          validate:
-            - required
       -
         handle: featured_hero_image
         field:
