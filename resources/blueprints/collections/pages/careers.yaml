@@ -1,8 +1,15 @@
 title: Careers
 sections:
-  main:
-    display: Main
+  header:
+    display: Header
     fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
       -
         handle: featured_hero_image
         field:
@@ -25,13 +32,14 @@ sections:
           visibility: visible
           always_save: false
           duplicate: false
+  main:
+    display: Main
+    fields:
       -
-        handle: title
+        handle: content_title
         field:
           type: text
-          required: true
-          validate:
-            - required
+          display: 'Content Title'
       -
         handle: content
         field:
