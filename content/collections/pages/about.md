@@ -3,12 +3,23 @@ id: 1250aa2c-4741-4722-b9e8-ddc5e293f966
 blueprint: page
 title: About
 author: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1676095054
+updated_by: 9b1959af-4c41-4876-9420-53a66a233faf
+updated_at: 1678826860
 featured_hero_image:
   src: 2022-12-13-10.29.54-scalp-0092.jpg
 template: default
+content_title: 'About Scalp'
 ---
-About us page.Penatibus quis mi primis laoreet vestibulum convallis felis hac elementum pellentesque ornare conubia augue praesent, lacinia parturient mauris vehicula ad senectus morbi eros quisque non pretium blandit. Eleifend rhoncus vivamus et parturient aptent himenaeos integer ridiculus id pellentesque molestie, habitasse luctus velit libero mi neque justo elit cursus. Adipiscing turpis varius justo vitae aenean parturient leo curae vulputate eu rhoncus aliquam at, ipsum tortor maecenas tellus nec orci a primis tempor massa eget amet. Phasellus conubia gravida hac praesent justo dictum urna consectetur euismod varius eros, torquent volutpat ridiculus nam est facilisis nisl imperdiet elementum orci, dictumst venenatis purus commodo integer ornare amet sollicitudin maximus magnis. Justo cras ultricies eros vitae pellentesque facilisi fringilla dolor suscipit conubia consectetur cubilia, aenean nullam mi lacinia per erat scelerisque primis amet efficitur. Himenaeos fringilla pellentesque ex posuere quisque montes cursus ligula, netus faucibus facilisis sociosqu ad velit vehicula, dis aenean non sit sagittis tortor imperdiet.
+SaclpTrade is a proprietary trading firm that was formed over 10 years ago. During this time, ScalpTrade has expanded its core business of options trading, to include virtually every asset class of exchange traded products. 
 
-Interdum morbi iaculis vestibulum at pharetra vel tincidunt elit molestie, magna bibendum massa platea facilisi consectetur proin hendrerit nibh, felis id ultricies class dignissim pellentesque velit mauris. Finibus id commodo nisl fringilla orci eget facilisis parturient rutrum vehicula dui, pellentesque facilisi elit amet enim maximus ridiculus aliquam aptent sociosqu, arcu neque fames quisque purus non ante posuere platea donec.
+Our goal is to create more efficient markets through a mix on technology, innovation and transparency. 
+
+The Meaning Behind Our Name
+
+SCALP Trade was founded on family values, and the name originates from the Founder, Stanly Awdisho, his wife and three childern. The letters in SCALP come from the first letter of each member's name to remind employees that SCALP is a family. With these values embedded in our name, employees are reminded that they will always have a home here at SCALP Trade. 
+
+Our Culture
+
+The Scalp Trade team is built on the foundation of collaboration, diversity and innovation; we work hard to foster a culture that our team tryly enjoys. As ScalpTrade continues to grow, we are always looking for those who are technology oriented, embrace challenges and enjoy problem solving. 
+
+While we are committed to critical thinking, we want more than a degree. We focus on the intangibles; we embrace individuals with grit, self-motivation, and those with the deisre to experience to tackle the most difficult obstacles.
