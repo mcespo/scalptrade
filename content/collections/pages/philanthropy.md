@@ -1,10 +1,10 @@
 ---
 id: 82741161-bc00-4670-89cb-3fe86600e7ad
 blueprint: page
-title: Philanthropy
+title: 'Scalp Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1676095824
+updated_by: 9b1959af-4c41-4876-9420-53a66a233faf
+updated_at: 1679427596
 content_image:
   src: footer-bg.jpg
 featured_hero_image:
