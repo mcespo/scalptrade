@@ -4,7 +4,7 @@ blueprint: page
 title: 'Scalp Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: 9b1959af-4c41-4876-9420-53a66a233faf
-updated_at: 1679427596
+updated_at: 1679430056
 content_image:
   src: footer-bg.jpg
 featured_hero_image:
