@@ -8,7 +8,7 @@ hero_title: |-
   **logic, technology,
   and speed.**
 updated_by: 9b1959af-4c41-4876-9420-53a66a233faf
-updated_at: 1679425798
+updated_at: 1679428170
 hero_image: 2022-12-13-10.29.54-scalp-0092.jpg
 featured_hero_image:
   src: 2022-12-13-10.29.54-scalp-0092.jpg
@@ -18,4 +18,4 @@ content_title: 'Intelligent, Focused and Determined.'
 ---
 ScalpTrade is a proprietary trading firm that was founded in 2009. Over time, ScalpTrade has expanded its core business of options trading to include virtually every asset class of exchange-traded products. Scalp prides itself on creativity and deep problem solving, although we place a heavy emphasis on execution through collaboration. We are a group that truly believes the sum is greater than the parts. 
 
-Scalp is younger player in the proprietary landscape, however, our focus and determination made us a competitor in the trading industry.
+Scalp is younger player in the proprietary landscape, however, our focus and determination has made us a competitor in the trading industry.
