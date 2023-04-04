@@ -58,4 +58,9 @@ sections:
         field:
           type: slug
           localizable: true
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          from: full_name
+          generate: true
 title: Quote
