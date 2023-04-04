@@ -7,19 +7,8 @@ sections:
         field:
           type: text
           required: true
-      -
-        handle: full_name
-        field:
-          type: text
           validate:
             - required
-          display: 'Full Name'
-          instructions: 'full name of individual providing quote'
-          instructions_position: above
-          listable: hidden
-          visibility: visible
-          input_type: text
-          antlers: false
       -
         handle: profile_image
         field:
