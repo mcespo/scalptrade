@@ -1,0 +1,61 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+      -
+        handle: full_name
+        field:
+          type: text
+          validate:
+            - required
+          display: 'Full Name'
+          instructions: 'full name of individual providing quote'
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          antlers: false
+      -
+        handle: profile_image
+        field:
+          use_breakpoints: false
+          allow_ratio: true
+          allow_fit: false
+          restrict: false
+          allow_uploads: true
+          display: 'Profile Image'
+          type: responsive
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          duplicate: false
+      -
+        handle: quote
+        field:
+          type: markdown
+          localizable: true
+          display: Quote
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+title: Quote
