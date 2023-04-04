@@ -1,7 +1,7 @@
 name: 'Joel Zawko'
 roles:
-  - editor
+    - editor
 groups:
-  - editors
+    - editors
 id: 9b1959af-4c41-4876-9420-53a66a233faf
 password_hash: $2y$10$yT.TflLGaJ2ZTEi0oF5Dd.B6uNYBgIgtq1H.FsC30vJqFwiu10FPS

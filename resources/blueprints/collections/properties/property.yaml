@@ -1,91 +1,84 @@
 sections:
-  main:
-    display: Main
-    fields:
-      -
-        handle: title
-        field:
-          type: text
-          required: true
-          validate:
-            - required
-          display: 'Property Name'
-          instructions_position: above
-          listable: hidden
-          visibility: visible
-          always_save: false
-          input_type: text
-          antlers: false
-      -
-        handle: featured_image
-        field:
-          use_breakpoints: false
-          allow_ratio: false
-          allow_fit: true
-          breakpoints:
-            - sm
-            - md
-            - lg
-            - xl
-            - 2xl
-          restrict: false
-          allow_uploads: true
-          display: 'Featured Image'
-          type: responsive
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          duplicate: false
-      -
-        handle: gallery
-        field:
-          mode: list
-          container: assets
-          restrict: false
-          allow_uploads: true
-          show_filename: true
-          display: Gallery
-          type: assets
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: full_address
-        field:
-          input_type: text
-          antlers: false
-          display: 'Full Address'
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: google_map_iframe
-        field:
-          display: 'Google Map iframe'
-          type: html
-          icon: html
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: content
-        field:
-          type: markdown
-          localizable: true
-  sidebar:
-    display: Sidebar
-    fields:
-      -
-        handle: slug
-        field:
-          type: slug
-          localizable: true
+    main:
+        display: Main
+        fields:
+            - handle: title
+              field:
+                  type: text
+                  required: true
+                  validate:
+                      - required
+                  display: 'Property Name'
+                  instructions_position: above
+                  listable: hidden
+                  visibility: visible
+                  always_save: false
+                  input_type: text
+                  antlers: false
+            - handle: featured_image
+              field:
+                  use_breakpoints: false
+                  allow_ratio: false
+                  allow_fit: true
+                  breakpoints:
+                      - sm
+                      - md
+                      - lg
+                      - xl
+                      - 2xl
+                  restrict: false
+                  allow_uploads: true
+                  display: 'Featured Image'
+                  type: responsive
+                  icon: assets
+                  listable: hidden
+                  instructions_position: above
+                  visibility: visible
+                  always_save: false
+                  duplicate: false
+            - handle: gallery
+              field:
+                  mode: list
+                  container: assets
+                  restrict: false
+                  allow_uploads: true
+                  show_filename: true
+                  display: Gallery
+                  type: assets
+                  icon: assets
+                  listable: hidden
+                  instructions_position: above
+                  visibility: visible
+                  always_save: false
+            - handle: full_address
+              field:
+                  input_type: text
+                  antlers: false
+                  display: 'Full Address'
+                  type: text
+                  icon: text
+                  listable: hidden
+                  instructions_position: above
+                  visibility: visible
+                  always_save: false
+            - handle: google_map_iframe
+              field:
+                  display: 'Google Map iframe'
+                  type: html
+                  icon: html
+                  listable: hidden
+                  instructions_position: above
+                  visibility: visible
+                  always_save: false
+            - handle: content
+              field:
+                  type: markdown
+                  localizable: true
+    sidebar:
+        display: Sidebar
+        fields:
+            - handle: slug
+              field:
+                  type: slug
+                  localizable: true
 title: Property

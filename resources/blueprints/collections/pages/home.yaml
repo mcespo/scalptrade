@@ -1,111 +1,102 @@
 title: Home
 sections:
-  header:
-    display: Header
-    fields:
-      -
-        handle: title
-        field:
-          type: text
-          required: true
-          validate:
-            - required
-      -
-        handle: hero_title
-        field:
-          restrict: false
-          automatic_line_breaks: true
-          automatic_links: false
-          escape_markup: false
-          smartypants: false
-          antlers: false
-          display: 'Hero Title'
-          type: markdown
-          icon: markdown
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: featured_hero_image
-        field:
-          use_breakpoints: false
-          allow_ratio: false
-          allow_fit: false
-          breakpoints:
-            - sm
-            - md
-            - lg
-            - xl
-            - 2xl
-          restrict: false
-          allow_uploads: true
-          display: 'Featured Hero Image'
-          type: responsive
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          duplicate: false
-  main:
-    display: Main
-    fields:
-      -
-        handle: content_title
-        field:
-          type: text
-          display: 'Content Title'
-      -
-        handle: content
-        field:
-          restrict: false
-          automatic_line_breaks: true
-          automatic_links: false
-          escape_markup: false
-          smartypants: false
-          antlers: false
-          display: Content
-          type: markdown
-          icon: markdown
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: content_image
-        field:
-          use_breakpoints: false
-          allow_ratio: false
-          allow_fit: false
-          restrict: false
-          allow_uploads: true
-          display: 'Content Image'
-          type: responsive
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-  sidebar:
-    display: Sidebar
-    fields:
-      -
-        handle: slug
-        field:
-          type: slug
-          localizable: true
-      -
-        handle: parent
-        field:
-          type: entries
-          collections:
-            - pages
-          max_items: 1
-          listable: false
-          localizable: true
-      -
-        handle: template
-        field:
-          type: template
-          display: Template
-          localizable: true
+    header:
+        display: Header
+        fields:
+            - handle: title
+              field:
+                  type: text
+                  required: true
+                  validate:
+                      - required
+            - handle: hero_title
+              field:
+                  restrict: false
+                  automatic_line_breaks: true
+                  automatic_links: false
+                  escape_markup: false
+                  smartypants: false
+                  antlers: false
+                  display: 'Hero Title'
+                  type: markdown
+                  icon: markdown
+                  listable: hidden
+                  instructions_position: above
+                  visibility: visible
+                  always_save: false
+            - handle: featured_hero_image
+              field:
+                  use_breakpoints: false
+                  allow_ratio: false
+                  allow_fit: false
+                  breakpoints:
+                      - sm
+                      - md
+                      - lg
+                      - xl
+                      - 2xl
+                  restrict: false
+                  allow_uploads: true
+                  display: 'Featured Hero Image'
+                  type: responsive
+                  icon: assets
+                  listable: hidden
+                  instructions_position: above
+                  visibility: visible
+                  always_save: false
+                  duplicate: false
+    main:
+        display: Main
+        fields:
+            - handle: content_title
+              field:
+                  type: text
+                  display: 'Content Title'
+            - handle: content
+              field:
+                  restrict: false
+                  automatic_line_breaks: true
+                  automatic_links: false
+                  escape_markup: false
+                  smartypants: false
+                  antlers: false
+                  display: Content
+                  type: markdown
+                  icon: markdown
+                  listable: hidden
+                  instructions_position: above
+                  visibility: visible
+                  always_save: false
+            - handle: content_image
+              field:
+                  use_breakpoints: false
+                  allow_ratio: false
+                  allow_fit: false
+                  restrict: false
+                  allow_uploads: true
+                  display: 'Content Image'
+                  type: responsive
+                  icon: assets
+                  listable: hidden
+                  instructions_position: above
+                  visibility: visible
+    sidebar:
+        display: Sidebar
+        fields:
+            - handle: slug
+              field:
+                  type: slug
+                  localizable: true
+            - handle: parent
+              field:
+                  type: entries
+                  collections:
+                      - pages
+                  max_items: 1
+                  listable: false
+                  localizable: true
+            - handle: template
+              field:
+                  type: template
+                  display: Template
+                  localizable: true

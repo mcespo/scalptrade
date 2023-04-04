@@ -6,12 +6,13 @@ author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: 9b1959af-4c41-4876-9420-53a66a233faf
 updated_at: 1679430056
 content_image:
-  src: footer-bg.jpg
+    src: footer-bg.jpg
 featured_hero_image:
-  src: 2022-12-13-09.48.24-scalp-0011.jpg
+    src: 2022-12-13-09.48.24-scalp-0011.jpg
 template: default
 content_title: 'Covenant House'
 ---
+
 ![Covenant House](https://scalptrade.test/assets/logo.png)
 
 Use this space to talk about what Covenant House is, why ScalpTrade is interested in this organization, and what the organization has done to support this group.

@@ -1,24 +1,27 @@
 {{ partial:header }}
 <div class="overflow-hidden bg-white">
-    <div class="relative mx-auto max-w-7xl py-16 px-6 lg:px-8">
-        <div class="max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
-            <h2 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">{{ content_title }}
+    <div class="relative mx-auto max-w-7xl px-6 py-16 lg:px-8">
+        <div
+            class="max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8"
+        >
+            <h2
+                class="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl"
+            >
+                {{ content_title }}
             </h2>
         </div>
         <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
             <div class="relative lg:col-start-2 lg:row-start-1">
-                {{ partial:svg-grid-pattern }}
-                {{ partial:content-image }}
+                {{ partial:svg-grid-pattern }} {{ partial:content-image }}
             </div>
             <div class="mt-8 lg:mt-0">
                 <div
-                    class="prose-lg prose-indigo mx-auto mt-5 mb-12 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
+                    class="prose-lg prose-indigo mx-auto mb-12 mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none"
+                >
                     {{ content }}
                 </div>
             </div>
-            {{ if display_jobs_list }}
-            {{ partial:jobs-list }}
-            {{ /if }}
+            {{ if display_jobs_list }} {{ partial:jobs-list }} {{ /if }}
         </div>
     </div>
 </div>

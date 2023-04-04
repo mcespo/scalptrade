@@ -7,16 +7,18 @@ updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_at: 1676095691
 template: contact
 featured_hero_image:
-  src: 425-s-financial-plaza-scaled.jpg
+    src: 425-s-financial-plaza-scaled.jpg
 content_image:
-  src: 2022-12-13-10.23.35-scalp-0075.jpg
+    src: 2022-12-13-10.23.35-scalp-0075.jpg
 content_title: ScalpTrade
 ---
+
 425 South Financial Place, Suite 3650
 Chicago, Illinois 60605
 Phone: (312) 720-3843
 
 ---
+
 ## We’re so glad you’ve decide to contact us!
 
 ScalpTrade is a group of driven, dynamic people and we would love to have you join our team. Please feel free to call the number above or message us.
