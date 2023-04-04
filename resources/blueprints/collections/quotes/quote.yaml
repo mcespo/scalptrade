@@ -9,6 +9,12 @@ sections:
           required: true
           validate:
             - required
+          display: 'Full Name'
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          antlers: false
       -
         handle: profile_image
         field:
@@ -50,6 +56,6 @@ sections:
           instructions_position: above
           listable: hidden
           visibility: visible
-          from: full_name
+          from: title
           generate: true
 title: Quote
