@@ -62,9 +62,10 @@
             <div
                 class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"
             >
-                <div class="flex flex-shrink-0 items-center">
-                    {{ partial:scalp-square-logo class="w-12" }}
-                </div>
+                <a href="{{ url }}" class="flex flex-shrink-0 items-center">
+                    {{ svg src="img/scalp-trade-logo_square-white-bg"
+                    class="w-12" }}
+                </a>
                 <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
                     {{ nav:collection:pages include_home="true" }}
                     <a
