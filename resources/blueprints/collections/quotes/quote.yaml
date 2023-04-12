@@ -16,10 +16,21 @@ sections:
           input_type: text
           antlers: false
       -
+        handle: role
+        field:
+          input_type: text
+          antlers: false
+          display: Role
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
         handle: profile_image
         field:
           use_breakpoints: false
-          allow_ratio: true
+          allow_ratio: false
           allow_fit: false
           restrict: false
           allow_uploads: true
@@ -30,6 +41,12 @@ sections:
           instructions_position: above
           visibility: visible
           duplicate: false
+          breakpoints:
+            - sm
+            - md
+            - lg
+            - xl
+            - 2xl
       -
         handle: quote
         field:
