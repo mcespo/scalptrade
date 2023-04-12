@@ -31,7 +31,9 @@
                     {{ content }}
                 </div>
             </div>
+
             {{ if display_jobs_list }} {{ partial:jobs-list }} {{ /if }}
         </div>
     </div>
+    {{ if display_team_quotes }} {{ partial:quotes }} {{ /if }}
 </div>
