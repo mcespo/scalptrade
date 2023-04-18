@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin');
 module.exports = {
     content: [
         './resources/**/*.antlers.html',
@@ -44,5 +45,17 @@ module.exports = {
             },
         },
     },
-    plugins: [require('@tailwindcss/typography')],
+    plugins: [
+        require('@tailwindcss/typography'),
+        plugin(function ({ matchUtilities, theme }) {
+            matchUtilities(
+                {
+                    'grid-area': (value) => ({
+                        gridArea: value,
+                    }),
+                },
+                { values: theme('gridArea') }
+            );
+        }),
+    ],
 };
