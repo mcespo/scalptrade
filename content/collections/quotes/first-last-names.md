@@ -4,8 +4,8 @@ blueprint: quote
 title: 'First Last Names'
 profile_image:
   src: 'team/scalp (11 of 16).jpg'
-quote: 'I only have two emotions: exhaustion and stress. And I’m somehow always feeling both simultaneously.'
-updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1681272768
+quote: 'My time at Scalp has been an incredibly positive learning journey. The Scalp family has been fundamental to my growth as a trader.  Scalp offers a supportive, team oriented environment that challenges traders to strive for excellence.'
+updated_by: 9b1959af-4c41-4876-9420-53a66a233faf
+updated_at: 1681828627
 role: 'CEO of Place'
 ---
