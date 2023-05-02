@@ -48,7 +48,7 @@ sections:
           instructions_position: above
           visibility: visible
           validate:
-            - 'regex:^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$'
+            - '$numpattern="/^([0-9]+)$/";'
       -
         handle: contact-message
         field:
