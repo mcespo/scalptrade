@@ -1,7 +1,7 @@
 <nav class="bg-white shadow" x-data="{ openMenu: false }">
-    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl px-2 md:px-6 lg:px-8">
         <div class="relative flex h-16 justify-between">
-            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <div class="absolute inset-y-0 left-0 flex items-center md:hidden">
                 <!-- Mobile menu button -->
                 <button
                     x-cloak
@@ -60,17 +60,17 @@
                 </button>
             </div>
             <div
-                class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"
+                class="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
             >
                 <a href="{{ url }}" class="flex flex-shrink-0 items-center">
                     {{ svg src="img/scalp-trade-logo_square-white-bg"
                     class="w-12" }}
                 </a>
-                <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                <div class="hidden md:ml-6 md:flex md:space-x-8">
                     {{ nav:collection:pages include_home="true" }}
                     <a
                         href="{{ url }}"
-                        class="inline-flex items-center border-transparent border-b-2 px-1 pt-1 text-sm font-medium {{ if is_current || is_parent }} border-neutral-600 text-gray-900 {{else}} text-gray-500 hover:border-gray-300 hover:text-gray-700{{ /if }}"
+                        class="inline-flex items-center border-transparent border-b-4 px-1 pt-1 text-base font-medium {{ if is_current || is_parent }} border-green-scalp text-gray-900 {{else}} text-gray-600 hover:border-green-scalp-light hover:text-gray-700{{ /if }}"
                         >{{ title }}</a
                     >
                     {{ /nav:collection:pages }}
@@ -80,7 +80,7 @@
     </div>
 
     <!-- Mobile menu, show/hide based on menu state. -->
-    <div x-show="openMenu" class="sm:hidden" id="mobile-menu">
+    <div x-show="openMenu" class="md:hidden" id="mobile-menu">
         <div class="space-y-1 pb-4 pt-2">
             {{ nav:collection:pages include_home="true" }}
             <a
