@@ -34,22 +34,6 @@ sections:
             - required
             - email
       -
-        handle: phone
-        field:
-          placeholder: 312-555-5555
-          input_type: tel
-          character_limit: 16
-          antlers: false
-          display: Phone
-          type: text
-          icon: text
-          instructions: 'Phone Number'
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          validate:
-            - '$numpattern="/^([0-9]+)$/";'
-      -
         handle: contact-message
         field:
           antlers: false
