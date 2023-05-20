@@ -3,8 +3,8 @@ id: 23002342-aa66-4aa2-80a3-8e0b96419fb6
 blueprint: careers
 title: Careers
 author: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_by: 9b1959af-4c41-4876-9420-53a66a233faf
-updated_at: 1682520079
+updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
+updated_at: 1684558386
 template: careers
 display_jobs_list: true
 content_image:
