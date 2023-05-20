@@ -125,6 +125,8 @@ tabs:
               instructions_position: above
               visibility: visible
               always_save: false
+              default: 'The Scalp Trade team is built on the foundation of collaboration, diversity and innovation. We value critical thinkers, who are adapt at deep problem solving, and can endure a fast paced environment. We embrace individuals with grit, self-motivation, and those with the desire to experience and tackle the most difficult obstacles.'
+              hide_display: false
           -
             handle: what_youll_do
             field:
@@ -173,6 +175,11 @@ tabs:
               instructions_position: above
               visibility: visible
               always_save: false
+              default: |-
+                Scalp's primary focus is trading equities, equity options, and futures. We aim to better the market through tighter spreads, and providing liquidity to all market participants.
+
+                Scalp operates on the premise of the market, meaning that we believe in the creation of jobs, and capital formation through a well regulated capital market structure. This belief helps to drive our design, implementation and execution of our trading decisions.
+              hide_display: false
   sidebar:
     display: Sidebar
     sections:
