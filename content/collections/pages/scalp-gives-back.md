@@ -4,7 +4,7 @@ blueprint: page
 title: 'Scalp Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1684558927
+updated_at: 1684559156
 content_image:
   src: covenant.jpg
 featured_hero_image:
@@ -12,10 +12,10 @@ featured_hero_image:
 template: default
 content_title: 'Covenant House'
 ---
-![Covenant House](https://scalptrade.test/assets/logo.png)
-
 Scalp Trade is proud to support Covenant House Illinois (CHIL), a Chicago not-for-profit organization serving young people ages 18-24 experiencing the devastation of homelessness and housing instability.
 Since 2017, CHIL has reached nearly 2,000 young people in crisis, providing a comprehensive array of services – including interim shelter, education services and workforce development, clinical case-management, and a slate of wraparound support programming – to help youth permanently break the cycle of homelessness and achieve sustainable independence.
+
+![Covenant House](/assets/covenant-3.jpg)
 
 Scalp Trade support includes:
 * Operating support – helping CHIL deliver essential services to more than 300 young people annually
@@ -29,3 +29,5 @@ Scalp Trade support includes:
 Please join us in partnering with this vital organization – to provide hope to young people in crisis and a practical path out of homelessness and toward a brighter future.
 
 [Donate to CHIL today](https://www.covenanthouseil.org/donate)
+
+![Covenant House](/assets/covenant-2.jpg)
