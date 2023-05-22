@@ -38,6 +38,7 @@ tabs:
     display: Main
     sections:
       -
+        display: 'Content Area'
         fields:
           -
             handle: content_title
@@ -74,12 +75,26 @@ tabs:
               listable: hidden
               instructions_position: above
               visibility: visible
+      -
+        display: 'Quotes Area'
+        fields:
           -
             handle: display_team_quotes
             field:
               default: false
               type: toggle
               display: 'Display Team Quotes'
+              icon: toggle
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: enable_quote_loop
+            field:
+              default: false
+              type: toggle
+              display: 'Enable Quote Loop'
               icon: toggle
               listable: hidden
               instructions_position: above
