@@ -21,3 +21,4 @@ preferences:
         - status
         - title
         - role
+        - slug
