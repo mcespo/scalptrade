@@ -1,6 +1,7 @@
 <div class="bg-white pb-16 pt-24 sm:pb-24 sm:pt-32 xl:pb-32">
     <div
         class="grid bg-gray-900 pb-20 sm:pb-24 xl:pb-0 min-h-[504px]"
+        {{ if enable_quote_loop }}
         x-data="{
             active: 1,
             loop() {
@@ -8,7 +9,13 @@
             },
         }"
         x-init="loop"
+        {{ else }}
+        x-data="{
+            active: 2,
+        }"
+        {{ /if }}
     >
+
         {{ collection:quotes }} {{ partial:quote }} {{ /collection:quotes }}
     </div>
 </div>
