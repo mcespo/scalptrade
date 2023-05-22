@@ -4,11 +4,12 @@ blueprint: page
 title: About
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1684558329
+updated_at: 1684766771
 featured_hero_image:
   src: 2022-12-13-10.29.54-scalp-0092.jpg
 template: default
 content_title: 'The Meaning Behind Scalp Trade'
+display_team_quotes: true
 ---
 Scalp Trade was founded on family values, and the name originates from the Founder, Stanley Awdisho, his wife and three childern. The letters in SCALP come from the first letter of each member's name to remind employees that SCALP is a family. With these values embedded in our name, team members are reminded that they will always have a home here at SCALP Trade.
 
