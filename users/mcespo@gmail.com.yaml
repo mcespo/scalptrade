@@ -4,15 +4,20 @@ avatar: team/marvin-cespedes-2017-profile-image_2_500.jpg
 id: bebd7e43-446f-4387-a853-3c3100b5110c
 password_hash: $2y$10$W0ZTmo41y941.1VRYZMmq.GmDry4ipVtVtS1lX/HdNcZXR5XGXpxi
 preferences:
-    collections:
-        careers:
-            after_save: continue_editing
-            columns:
-                - title
-                - slug
-        members:
-            columns:
-                - title
-                - job_title
-        pages:
-            after_save: continue_editing
+  collections:
+    careers:
+      after_save: continue_editing
+      columns:
+        - title
+        - slug
+    members:
+      columns:
+        - title
+        - job_title
+    pages:
+      after_save: continue_editing
+    quotes:
+      columns:
+        - status
+        - title
+        - role
