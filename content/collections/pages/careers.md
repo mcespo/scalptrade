@@ -4,7 +4,7 @@ blueprint: careers
 title: Careers
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1684558386
+updated_at: 1684766997
 template: careers
 display_jobs_list: true
 content_image:
@@ -13,6 +13,7 @@ featured_hero_image:
   src: 2022-12-13-10.23.35-scalp-0075.jpg
 content_title: 'Work with Us'
 display_team_quotes: true
+enable_quote_loop: true
 ---
 Scalp Trade is a group of driven, dynamic individuals focused on deep problem solving, with the desire to be a positive force in the capital markets. We are a privately-funded company that is owned and managed by trading professionals who have set high standards around trust, leadership and integrity, we have an absolute commitment to doing it right.
 
