@@ -4,7 +4,7 @@ blueprint: page
 title: About
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: 9b1959af-4c41-4876-9420-53a66a233faf
-updated_at: 1684772889
+updated_at: 1684861446
 featured_hero_image:
   src: 2022-12-13-10.29.54-scalp-0092.jpg
 template: default
@@ -16,7 +16,7 @@ Scalp Trade was founded on family values, and the name originates from the Found
 
 **Our Culture**
 
-The Scalp Trade team is built on the foundation of collaboration, diversity and innovation; we work hard to foster a culture that our team truly enjoys. We value critical thinkers, who are adapt at deep problem solving, and can endure a fast paced environment.
+The Scalp Trade team is built on the foundation of collaboration, diversity and innovation; we work hard to foster a culture that our team truly enjoys. We value critical thinkers, who are adept at deep problem solving, and can endure a fast paced environment.
 
 While we are committed to critical thinking, we want more than a degree. We focus on the intangibles; we embrace individuals with grit, self-motivation, and those with the desire to experience and tackle the most difficult obstacles.
 
