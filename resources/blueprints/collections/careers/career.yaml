@@ -94,11 +94,11 @@ tabs:
               always_save: false
               hide_display: false
           -
-            handle: about_the_position
+            handle: overview
             field:
               type: markdown
               localizable: true
-              display: 'About The Position'
+              display: Overview
               instructions_position: above
               listable: hidden
               visibility: visible
@@ -109,8 +109,21 @@ tabs:
               escape_markup: false
               smartypants: false
               antlers: false
+              replicator_preview: true
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - quote
+                - link
+                - image
+                - table
+              heading_anchors: false
+              table_of_contents: false
+              hide_display: false
           -
-            handle: who_will_love_this_job
+            handle: key_responsibilities
             field:
               restrict: false
               automatic_line_breaks: true
@@ -118,7 +131,7 @@ tabs:
               escape_markup: false
               smartypants: false
               antlers: false
-              display: 'Who will love this job'
+              display: 'Key Responsibilities'
               type: markdown
               icon: markdown
               listable: hidden
@@ -127,8 +140,20 @@ tabs:
               always_save: false
               default: 'The Scalp Trade team is built on the foundation of collaboration, diversity and innovation. We value critical thinkers, who are adapt at deep problem solving, and can endure a fast paced environment. We embrace individuals with grit, self-motivation, and those with the desire to experience and tackle the most difficult obstacles.'
               hide_display: false
+              replicator_preview: true
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - quote
+                - link
+                - image
+                - table
+              heading_anchors: false
+              table_of_contents: false
           -
-            handle: what_youll_do
+            handle: required_skills_and_qualifications
             field:
               restrict: false
               automatic_line_breaks: true
@@ -136,15 +161,28 @@ tabs:
               escape_markup: false
               smartypants: false
               antlers: false
-              display: "What you'll do"
+              display: 'Required Skills and Qualifications'
               type: markdown
               icon: markdown
               listable: hidden
               instructions_position: above
               visibility: visible
               always_save: false
+              replicator_preview: true
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - quote
+                - link
+                - image
+                - table
+              heading_anchors: false
+              table_of_contents: false
+              hide_display: false
           -
-            handle: you_should_have
+            handle: preferred_skills
             field:
               restrict: false
               automatic_line_breaks: true
@@ -152,15 +190,28 @@ tabs:
               escape_markup: false
               smartypants: false
               antlers: false
-              display: 'You should have'
+              display: 'Preferred Skills'
               type: markdown
               icon: markdown
               listable: hidden
               instructions_position: above
               visibility: visible
               always_save: false
+              replicator_preview: true
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - quote
+                - link
+                - image
+                - table
+              heading_anchors: false
+              table_of_contents: false
+              hide_display: false
           -
-            handle: who_we_are
+            handle: personal_attributes
             field:
               restrict: false
               automatic_line_breaks: true
@@ -168,7 +219,7 @@ tabs:
               escape_markup: false
               smartypants: false
               antlers: false
-              display: 'Who we are'
+              display: 'Personal Attributes'
               type: markdown
               icon: markdown
               listable: hidden
@@ -180,6 +231,51 @@ tabs:
 
                 Scalp operates on the premise of the market, meaning that we believe in the creation of jobs, and capital formation through a well regulated capital market structure. This belief helps to drive our design, implementation and execution of our trading decisions.
               hide_display: false
+              replicator_preview: true
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - quote
+                - link
+                - image
+                - table
+              heading_anchors: false
+              table_of_contents: false
+          -
+            handle: application_process
+            field:
+              restrict: false
+              automatic_line_breaks: true
+              automatic_links: false
+              escape_markup: false
+              smartypants: false
+              antlers: false
+              display: 'Application Process'
+              type: markdown
+              icon: markdown
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+              default: |-
+                Scalp's primary focus is trading equities, equity options, and futures. We aim to better the market through tighter spreads, and providing liquidity to all market participants.
+
+                Scalp operates on the premise of the market, meaning that we believe in the creation of jobs, and capital formation through a well regulated capital market structure. This belief helps to drive our design, implementation and execution of our trading decisions.
+              hide_display: false
+              replicator_preview: true
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - quote
+                - link
+                - image
+                - table
+              heading_anchors: false
+              table_of_contents: false
   sidebar:
     display: Sidebar
     sections:
@@ -190,6 +286,7 @@ tabs:
             field:
               type: slug
               localizable: true
+              validate: 'max:200'
           -
             handle: date
             field:
