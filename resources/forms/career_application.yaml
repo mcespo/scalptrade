@@ -1,1 +1,7 @@
 title: 'Career Application'
+email:
+  -
+    id: lqq4s0dw
+    to: mcespo@gmail.com
+    subject: 'New Job Application Submitted'
+    attachments: true
