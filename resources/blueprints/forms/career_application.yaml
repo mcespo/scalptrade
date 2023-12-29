@@ -52,4 +52,3 @@ tabs:
               hide_display: false
               validate:
                 - required
-                - 'regex:^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$'
