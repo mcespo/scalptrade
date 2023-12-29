@@ -1,0 +1,55 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: full_legal_name
+            field:
+              input_type: text
+              placeholder: 'First Middle Last'
+              antlers: false
+              type: text
+              display: 'Full Legal Name'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: email
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Email
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+                - email
+          -
+            handle: phone
+            field:
+              input_type: text
+              character_limit: 20
+              antlers: false
+              type: text
+              display: Phone
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+                - 'regex:^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$'
