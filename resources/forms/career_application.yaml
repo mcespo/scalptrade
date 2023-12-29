@@ -6,3 +6,4 @@ email:
     to: mcespo@gmail.com
     subject: 'New Job Application Submitted'
     attachments: true
+    mailer: smtp
