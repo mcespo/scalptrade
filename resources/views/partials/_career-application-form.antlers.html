@@ -1,0 +1,32 @@
+{{ form:career_application }} {{ if success }}
+<p>
+    Thank you for reaching out, someone will contact you within 48 business
+    hours
+</p>
+{{ else }} {{ if errors }}
+<p>please fix the errors below</p>
+{{ errors }} {{ value }} {{ /errors }} {{ /if }}
+<div class="max-w-lg lg:max-w-none">
+    {{ fields }}
+    <div class="mb-4">
+        <label for="first-name" class="block text-sm font-medium text-gray-700"
+            >{{ display }}</label
+        >
+        <div class="mt-1">{{ field }}</div>
+    </div>
+    {{ /fields }}
+    <input
+        type="text"
+        class="!hidden"
+        name="{{ honeypot ?? 'scalpy-honeypot' }}"
+    />
+    <div>
+        <button
+            type="submit"
+            class="inline-flex justify-center rounded-md border border-transparent bg-green-scalp px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-green-scalp-light focus:outline-none focus:ring-2 focus:ring-green-scalp focus:ring-offset-2"
+        >
+            Submit
+        </button>
+    </div>
+</div>
+{{ /if }} {{ /form:career_application }}
