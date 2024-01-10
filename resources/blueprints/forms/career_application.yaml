@@ -150,3 +150,61 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+          -
+            handle: how_did_you_hear_about_this_job
+            field:
+              options:
+                Website: null
+                'Career Fair': null
+                LinkedIn: null
+                Glassdoor: null
+                'Current or Former employee (see below)': null
+                'Other (see below)': null
+              taggable: false
+              push_tags: false
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              type: select
+              display: 'How did you hear about this job?'
+              icon: select
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: other_or_employee
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Other or Employee'
+              icon: text
+              instructions: 'If you selected ‘Other’, please list how you heard about this job / if you heard about this job through an employee, please list their name.'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: are_you_legally_authorized_to_work_for_any_employer_in_the_united_states_of_america
+            field:
+              options:
+                'No': null
+                'Yes': null
+              taggable: false
+              push_tags: false
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              type: select
+              display: 'Are you legally authorized to work for any employer in the United States of America?'
+              icon: select
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
