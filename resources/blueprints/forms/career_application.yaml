@@ -296,3 +296,15 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+          -
+            handle: hi_toggle
+            field:
+              default: false
+              type: toggle
+              display: 'hi toggle'
+              icon: toggle
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
