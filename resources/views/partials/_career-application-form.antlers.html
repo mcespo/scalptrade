@@ -1,19 +1,23 @@
 {{ form:career_application }} {{ if success }}
-<p>
-    Thank you for reaching out, someone will contact you within 48 business
-    hours
-</p>
-{{ else }} {{ if errors }}
-<p>please fix the errors below</p>
-{{ errors }} {{ value }} {{ /errors }} {{ /if }}
-<div class="max-w-lg lg:max-w-none">
+    <p>
+        Thank you for reaching out, someone will contact you within 48 business
+        hours
+    </p>
+{{ else }}
+{{ if errors }}
+    <p>please fix the errors below</p>
+{{ errors }}
+    {{ value }}
+{{ /errors }}
+{{ /if }}
+<div class="max-w-lg lg:max-w-none flex flex-col flex-wrap gap-4">
     {{ fields }}
-    <div class="mb-4">
-        <label for="first-name" class="block text-sm font-medium text-gray-700"
-            >{{ display }}</label
-        >
-        <div class="mt-1">{{ field }}</div>
-    </div>
+        <div class="{{ display | slugify | substr(0, 10) }}">
+            <label for="{{ display | slugify }}" class="block text-sm font-medium text-gray-700"
+                >{{ display }}</label
+            >
+            <div class="mt-1">{{ field }}</div>
+        </div>
     {{ /fields }}
     <input
         type="text"
