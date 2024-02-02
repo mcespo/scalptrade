@@ -120,43 +120,13 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
-            handle: graduation_month
+            handle: graduation_date
             field:
-              options:
-                January: null
-                February: null
-                March: null
-                April: null
-                May: null
-                June: null
-                July: null
-                August: null
-                September: null
-                October: null
-                November: null
-                December: null
-              taggable: false
-              push_tags: false
-              multiple: false
-              clearable: false
-              searchable: true
-              cast_booleans: false
-              type: select
-              display: 'Graduation Month'
-              icon: select
-              width: 50
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-          -
-            handle: year
-            field:
-              type: integer
-              display: Year
-              icon: integer
-              width: 50
+              input_type: date
+              antlers: false
+              type: text
+              display: 'Graduation Date'
+              icon: text
               listable: hidden
               instructions_position: above
               visibility: visible
