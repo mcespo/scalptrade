@@ -22,3 +22,8 @@ preferences:
         - title
         - role
         - slug
+  forms:
+    career_application:
+      columns:
+        - datestamp
+        - full_legal_name

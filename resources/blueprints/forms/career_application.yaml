@@ -5,25 +5,53 @@ tabs:
       -
         fields:
           -
-            handle: full_legal_name
+            handle: upload_resume_pdf_or_word_doc
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              restrict: true
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Upload Resume (pdf or Word doc)'
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: first_name
             field:
               input_type: text
-              placeholder: 'First Middle Last'
               antlers: false
               type: text
-              display: 'Full Legal Name'
+              display: 'First Name'
               icon: text
               listable: hidden
               instructions_position: above
               visibility: visible
               replicator_preview: true
               hide_display: false
-              validate:
-                - required
+          -
+            handle: last_name
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Last Name'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
           -
             handle: email
             field:
-              input_type: text
+              input_type: email
               antlers: false
               type: text
               display: Email
@@ -39,7 +67,7 @@ tabs:
           -
             handle: phone
             field:
-              input_type: text
+              input_type: tel
               character_limit: 20
               antlers: false
               type: text
@@ -52,3 +80,199 @@ tabs:
               hide_display: false
               validate:
                 - required
+          -
+            handle: university
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: University
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: what_is_your_highest_level_of_education
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'What is your highest level of education'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: if_applicable_what_education_level_are_you_currently_pursuing
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'If applicable, what education level are you currently pursuing'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: graduation_date
+            field:
+              input_type: date
+              antlers: false
+              type: text
+              display: 'Graduation Date'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: have_you_applied_for_a_position_at_scalp_trade_in_the_past
+            field:
+              options:
+                'No': null
+                'Yes': null
+              inline: true
+              cast_booleans: false
+              type: radio
+              display: 'Have you applied for a position at SCALP Trade in the past'
+              icon: radio
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: how_did_you_hear_about_this_job
+            field:
+              options:
+                Website: null
+                'Career Fair': null
+                LinkedIn: null
+                Glassdoor: null
+                'Current or Former employee (see below)': null
+                'Other (see below)': null
+              taggable: false
+              push_tags: false
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              type: select
+              display: 'How did you hear about this job?'
+              icon: select
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: other_or_employee
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Other or Employee'
+              icon: text
+              instructions: 'If you selected ‘Other’, please list how you heard about this job / if you heard about this job through an employee, please list their name.'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: are_you_legally_authorized_to_work_for_any_employer_in_the_united_states_of_america
+            field:
+              options:
+                'No': null
+                'Yes': null
+              inline: true
+              cast_booleans: false
+              type: radio
+              display: 'Are you legally authorized to work for any employer in the United States of America?'
+              icon: radio
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: if_you_answered_yes_to_require_visa_sponsorshipwhat_is_your_current_immigration_status_basis_of_your_current_work_authorization
+            field:
+              options:
+                'N/A ': null
+                'F-1 CPT': null
+                'C-1 OPT': null
+                'F-1 STEM': null
+                H-1B: null
+                L-2: null
+                E-3: null
+                TN: null
+                O-1: null
+                H1B1: null
+                'DACA (Deferred Action for Childhood Arrivals)': null
+                'TPS (Temporary Protected Status)': null
+                'Family Sponsorship': null
+                'No Current Work Authorization': null
+              taggable: false
+              push_tags: false
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              type: select
+              display: 'If you answered “Yes” to require visa sponsorship: What is your current immigration status/basis of your current work authorization?'
+              icon: select
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: if_you_have_a_current_work_authorization_status_when_does_it_expire_please_enter_n_a_if_you_do_not_require_work_authorization
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'If you have a current work authorization/status, when does it expire? (Please enter N/A if you do not require work authorization)'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: please_provide_additional_detail_about_your_sponsorship_needs_current_work_authorization_status_or_eligibility_for_a_work_authorization_status_please_enter_n_a_if_you_do_not_require_work_authorization
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Please provide additional detail about your sponsorship needs, current work authorization status, or eligibility for a work authorization status. (Please enter N/A if you do not require work authorization)'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: i_certify_that_all_information_i_have_provided_in_order_to_apply_for_this_position_with_scalp_trade_is_true_complete_and_accurate_i_understand_further_that_if_any_information_provided_by_me_is_found_to_be_false_misleading_or_misrepresented_in_any_respect_that_will_be_sufficient_cause_to_eliminate_me_from_further_consideration_for_employment_or_may_result_in_my_immediate_termination_whenever_it_is_discovered
+            field:
+              options:
+                'No': null
+                'Yes': null
+              inline: false
+              cast_booleans: false
+              type: radio
+              display: 'I certify that all information I have provided in order to apply for this position with SCALP Trade is true, complete, and accurate. I understand further that if any information provided by me is found to be false, misleading, or misrepresented in any respect, that will be sufficient cause to eliminate me from further consideration for employment or may result in my immediate termination, whenever it is discovered.'
+              icon: radio
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
