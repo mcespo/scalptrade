@@ -23,21 +23,31 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
-            handle: full_legal_name
+            handle: first_name
             field:
               input_type: text
-              placeholder: 'First Middle Last'
               antlers: false
               type: text
-              display: 'Full Legal Name'
+              display: 'First Name'
               icon: text
               listable: hidden
               instructions_position: above
               visibility: visible
               replicator_preview: true
               hide_display: false
-              validate:
-                - required
+          -
+            handle: last_name
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Last Name'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
           -
             handle: email
             field:
@@ -296,34 +306,3 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-          -
-            handle: hi_toggle
-            field:
-              default: false
-              type: toggle
-              display: 'hi toggle'
-              icon: toggle
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-          -
-            handle: select_field
-            field:
-              taggable: false
-              push_tags: false
-              multiple: false
-              clearable: false
-              searchable: true
-              cast_booleans: false
-              type: select
-              display: date
-              icon: select
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-              validate:
-                - date
