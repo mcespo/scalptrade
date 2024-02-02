@@ -10,13 +10,15 @@
     {{ value }}
 {{ /errors }}
 {{ /if }}
-<div class="max-w-lg lg:max-w-none flex flex-col flex-wrap gap-4">
     {{ fields }}
         <div class="{{ display | slugify | substr(0, 10) }}">
-            <label for="{{ display | slugify }}" class="block text-sm font-medium text-gray-700"
-                >{{ display }}</label
-            >
-            <div class="mt-1">{{ field }}</div>
+            <label for="{{ display | slugify }}">{{ display }}</label>
+            <div class="mt-2">
+                {{ field }}
+            </div>
+            {{ if error }}
+                <p class="text-gray-500">{{ error }}</p>
+            {{ /if }}
         </div>
     {{ /fields }}
     <input
