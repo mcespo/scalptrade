@@ -51,7 +51,7 @@ tabs:
           -
             handle: email
             field:
-              input_type: text
+              input_type: email
               antlers: false
               type: text
               display: Email
@@ -138,7 +138,7 @@ tabs:
               options:
                 'No': null
                 'Yes': null
-              inline: false
+              inline: true
               cast_booleans: false
               type: radio
               display: 'Have you applied for a position at SCALP Trade in the past'
@@ -192,7 +192,7 @@ tabs:
               options:
                 'No': null
                 'Yes': null
-              inline: false
+              inline: true
               cast_booleans: false
               type: radio
               display: 'Are you legally authorized to work for any employer in the United States of America?'
