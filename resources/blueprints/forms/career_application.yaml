@@ -58,7 +58,7 @@ tabs:
               input_type: email
               antlers: false
               type: text
-              display: Email
+              display: Email address
               icon: text
               listable: hidden
               instructions_position: above
@@ -75,7 +75,7 @@ tabs:
               character_limit: 20
               antlers: false
               type: text
-              display: Phone
+              display: Phone number
               icon: text
               listable: hidden
               instructions_position: above
@@ -90,7 +90,7 @@ tabs:
               input_type: text
               antlers: false
               type: text
-              display: University
+              display: University attended
               icon: text
               listable: hidden
               instructions_position: above
@@ -103,7 +103,7 @@ tabs:
               input_type: text
               antlers: false
               type: text
-              display: 'What is your highest level of education'
+              display: 'What is your highest level of education?'
               icon: text
               listable: hidden
               instructions_position: above
@@ -116,7 +116,7 @@ tabs:
               input_type: text
               antlers: false
               type: text
-              display: 'If applicable, what education level are you currently pursuing'
+              display: 'If applicable, what education level are you currently pursuing?'
               icon: text
               listable: hidden
               instructions_position: above
@@ -145,7 +145,7 @@ tabs:
               inline: true
               cast_booleans: false
               type: radio
-              display: 'Have you applied for a position at SCALP Trade in the past'
+              display: 'Have you applied for a position at SCALP Trade in the past?'
               icon: radio
               listable: hidden
               instructions_position: above
@@ -182,7 +182,7 @@ tabs:
               input_type: text
               antlers: false
               type: text
-              display: 'Other or Employee'
+              display: 'If seleced "Other" or "Employee" please provide those details or employee name below.'
               icon: text
               instructions: 'If you selected ‘Other’, please list how you heard about this job / if you heard about this job through an employee, please list their name.'
               listable: hidden
@@ -270,7 +270,7 @@ tabs:
               options:
                 'No': null
                 'Yes': null
-              inline: false
+              inline: true
               cast_booleans: false
               type: radio
               display: 'I certify that all information I have provided in order to apply for this position with SCALP Trade is true, complete, and accurate. I understand further that if any information provided by me is found to be false, misleading, or misrepresented in any respect, that will be sufficient cause to eliminate me from further consideration for employment or may result in my immediate termination, whenever it is discovered.'
