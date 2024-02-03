@@ -16,6 +16,9 @@ tabs:
               show_set_alt: true
               type: assets
               display: 'Upload Resume (pdf or Word doc)'
+              instructions: 'Please use only PDFs or Word Docs'
+              validate:
+                - required
               icon: assets
               listable: hidden
               instructions_position: above
