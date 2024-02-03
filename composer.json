@@ -16,7 +16,8 @@
         "laravel/sanctum": "^2.14",
         "laravel/tinker": "^2.7",
         "spatie/statamic-responsive-images": "^4.0.0",
-        "statamic/cms": "^4.0"
+        "statamic/cms": "^4.0",
+        "steadfastcollective/statamic-csv-exporter": "^2.2"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",
