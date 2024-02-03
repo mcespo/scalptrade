@@ -1,9 +1,0 @@
-title: Contact
-honeypot: scalpy-honeypot
-email:
-  -
-    id: lhvjv4rf
-    to: mcespo@gmail.com
-    subject: 'Email from contact form'
-    markdown: true
-    attachments: true
