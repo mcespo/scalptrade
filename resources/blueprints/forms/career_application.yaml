@@ -272,10 +272,10 @@ tabs:
           -
             handle: authorization_expiration
             field:
-              input_type: text
+              input_type: date
               antlers: false
               type: text
-              display: 'If you have a current work authorization/status, when does it expire? (Please enter N/A if you do not require work authorization)'
+              display: 'If you have a current work authorization/status, when does it expire? (Please leave blank if you do not require work authorization)'
               icon: text
               listable: hidden
               instructions_position: above
