@@ -39,6 +39,8 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              validate:
+                - required
           -
             handle: last_name
             field:
@@ -52,6 +54,8 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              validate:
+                - required
           -
             handle: email
             field:
@@ -98,7 +102,7 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
-            handle: what_is_your_highest_level_of_education
+            handle: highest_education
             field:
               input_type: text
               antlers: false
@@ -110,8 +114,10 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              validate:
+                - required
           -
-            handle: if_applicable_what_education_level_are_you_currently_pursuing
+            handle: current_education_pursuit
             field:
               input_type: text
               antlers: false
@@ -137,7 +143,7 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
-            handle: have_you_applied_for_a_position_at_scalp_trade_in_the_past
+            handle: applied_to_scalp_before
             field:
               options:
                 'No': null
@@ -152,8 +158,10 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              validate:
+                - required
           -
-            handle: how_did_you_hear_about_this_job
+            handle: how_did_you_hear_about_job
             field:
               options:
                 Website: null
@@ -182,7 +190,7 @@ tabs:
               input_type: text
               antlers: false
               type: text
-              display: 'If seleced "Other" or "Employee" please provide those details or employee name below.'
+              display: 'If seleced "Other" or "Employee" to the above question, please provide those details or employee name below.'
               icon: text
               instructions: 'If you selected ‘Other’, please list how you heard about this job / if you heard about this job through an employee, please list their name.'
               listable: hidden
@@ -191,7 +199,7 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
-            handle: are_you_legally_authorized_to_work_for_any_employer_in_the_united_states_of_america
+            handle: allowed_to_work_in_usa
             field:
               options:
                 'No': null
@@ -206,8 +214,28 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              validate:
+                - required
           -
-            handle: if_you_answered_yes_to_require_visa_sponsorshipwhat_is_your_current_immigration_status_basis_of_your_current_work_authorization
+            handle: require_visa_sponsorship
+            field:
+              options:
+                'No': null
+                'Yes': null
+              inline: true
+              cast_booleans: false
+              type: radio
+              display: 'Will you now or in the future require visa sponsorship to continue working in the United States of America?'
+              icon: radio
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: visa_status
             field:
               options:
                 'N/A ': null
@@ -239,7 +267,7 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
-            handle: if_you_have_a_current_work_authorization_status_when_does_it_expire_please_enter_n_a_if_you_do_not_require_work_authorization
+            handle: authorization_expiration
             field:
               input_type: text
               antlers: false
@@ -251,21 +279,28 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              validate:
+                - required
           -
-            handle: please_provide_additional_detail_about_your_sponsorship_needs_current_work_authorization_status_or_eligibility_for_a_work_authorization_status_please_enter_n_a_if_you_do_not_require_work_authorization
+            handle: sponsorhip_needs_details
             field:
               input_type: text
               antlers: false
               type: text
-              display: 'Please provide additional detail about your sponsorship needs, current work authorization status, or eligibility for a work authorization status. (Please enter N/A if you do not require work authorization)'
+              display: 'Please provide additional details about your sponsorship needs, current work authorization status, or eligibility for a work authorization status. (Please enter N/A if you do not require work authorization)'
               icon: text
               listable: hidden
               instructions_position: above
               visibility: visible
               replicator_preview: true
               hide_display: false
+              validate:
+                - required
+      -
+        display: Submit
+        fields:
           -
-            handle: i_certify_that_all_information_i_have_provided_in_order_to_apply_for_this_position_with_scalp_trade_is_true_complete_and_accurate_i_understand_further_that_if_any_information_provided_by_me_is_found_to_be_false_misleading_or_misrepresented_in_any_respect_that_will_be_sufficient_cause_to_eliminate_me_from_further_consideration_for_employment_or_may_result_in_my_immediate_termination_whenever_it_is_discovered
+            handle: all_information_correct
             field:
               options:
                 'No': null
@@ -280,3 +315,5 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              validate:
+                - required
