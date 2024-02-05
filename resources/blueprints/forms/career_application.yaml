@@ -62,7 +62,7 @@ tabs:
               input_type: email
               antlers: false
               type: text
-              display: Email address
+              display: 'Email address'
               icon: text
               listable: hidden
               instructions_position: above
@@ -79,7 +79,7 @@ tabs:
               character_limit: 20
               antlers: false
               type: text
-              display: Phone number
+              display: 'Phone number'
               icon: text
               listable: hidden
               instructions_position: above
@@ -94,7 +94,7 @@ tabs:
               input_type: text
               antlers: false
               type: text
-              display: University attended
+              display: 'University attended'
               icon: text
               listable: hidden
               instructions_position: above
@@ -198,6 +198,9 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+      -
+        display: Authorization
+        fields:
           -
             handle: allowed_to_work_in_usa
             field:
@@ -279,8 +282,6 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-              validate:
-                - required
           -
             handle: sponsorhip_needs_details
             field:
