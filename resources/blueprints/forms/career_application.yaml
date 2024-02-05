@@ -5,7 +5,7 @@ tabs:
       -
         fields:
           -
-            handle: upload_resume_pdf_or_word_doc
+            handle: upload_resume
             field:
               max_files: 1
               mode: list
