@@ -4,3 +4,4 @@ roles:
 groups:
   - editors
 id: ef3cfc61-4d9d-4d09-a36c-c06664b8c4b9
+password_hash: $2y$10$gSvGG.0Gii0vf2wK6lYp9eaMT/WlDrzeO6lEx97UnQPdAFCq2Wcji
