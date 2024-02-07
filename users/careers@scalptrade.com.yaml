@@ -12,3 +12,4 @@ preferences:
         - datestamp
         - first_name
         - last_name
+        - allowed_to_work_in_usa
