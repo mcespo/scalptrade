@@ -20,6 +20,7 @@ tabs:
               replicator_preview: false
               duplicate: false
               hide_display: false
+              always_save: true
           -
             handle: upload_resume
             field:
