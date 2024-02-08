@@ -12,3 +12,6 @@ preferences:
         - datestamp
         - first_name
         - last_name
+        - university
+        - graduation_date
+        - allowed_to_work_in_usa
