@@ -6,6 +6,21 @@ tabs:
         display: Details
         fields:
           -
+            handle: role
+            field:
+              input_type: text
+              default: '{{ title }}'
+              antlers: true
+              type: text
+              display: Role
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: hidden
+              replicator_preview: false
+              duplicate: false
+              hide_display: false
+          -
             handle: upload_resume
             field:
               max_files: 1
