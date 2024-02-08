@@ -26,5 +26,6 @@ preferences:
     career_application:
       columns:
         - datestamp
+        - role
         - first_name
         - last_name

@@ -6,6 +6,21 @@ tabs:
         display: Details
         fields:
           -
+            handle: role
+            field:
+              input_type: text
+              antlers: true
+              type: text
+              display: Role
+              icon: text
+              listable: true
+              instructions_position: above
+              visibility: computed
+              replicator_preview: false
+              duplicate: false
+              hide_display: false
+              always_save: true
+          -
             handle: upload_resume
             field:
               max_files: 1
