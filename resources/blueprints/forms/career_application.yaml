@@ -9,14 +9,13 @@ tabs:
             handle: role
             field:
               input_type: text
-              default: '{{ title }}'
               antlers: true
               type: text
               display: Role
               icon: text
-              listable: hidden
+              listable: true
               instructions_position: above
-              visibility: hidden
+              visibility: computed
               replicator_preview: false
               duplicate: false
               hide_display: false
