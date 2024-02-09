@@ -226,7 +226,7 @@ tabs:
               inline: true
               cast_booleans: false
               type: radio
-              display: 'Are you legally authorized to work for any employer in the United States of America?'
+              display: 'Currently, are you legally authorized to work for any employer in the United States of America?'
               icon: radio
               listable: hidden
               instructions_position: above
@@ -278,7 +278,7 @@ tabs:
               searchable: true
               cast_booleans: false
               type: select
-              display: 'If you answered “Yes” to require visa sponsorship: What is your current immigration status/basis of your current work authorization?'
+              display: 'If you answered “Yes” to the above: What is your current immigration status/basis of your work authorization?'
               icon: select
               listable: hidden
               instructions_position: above
