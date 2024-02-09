@@ -278,7 +278,7 @@ tabs:
               searchable: true
               cast_booleans: false
               type: select
-              display: 'If you answered “Yes” to the above: What is your current immigration status/basis of your work authorization?'
+              display: 'If you answered “Yes” to the question above: What is your current immigration status/basis of your work authorization?'
               icon: select
               listable: hidden
               instructions_position: above
