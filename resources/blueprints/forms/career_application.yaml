@@ -105,6 +105,58 @@ tabs:
               validate:
                 - required
           -
+            handle: linkedin_url
+            field:
+              input_type: url
+              antlers: false
+              type: text
+              display: 'LinkedIn URL'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: portfolio_url
+            field:
+              input_type: url
+              antlers: false
+              type: text
+              display: 'Portfolio URL (If applicable)'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: github_url
+            field:
+              input_type: url
+              antlers: false
+              type: text
+              display: 'GitHub URL (if applicable)'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: other_url
+            field:
+              input_type: url
+              antlers: false
+              type: text
+              display: 'Other URL (if applicable)'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
             handle: university
             field:
               input_type: text
