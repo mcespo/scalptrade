@@ -3,7 +3,7 @@ honeypot: scalpy-honeypot
 email:
   -
     id: lqq4s0dw
-    to: mcespo@gmail.com
+    to: careers@scalptrade.com
     subject: 'New Job Application Submitted'
     attachments: true
     mailer: smtp
