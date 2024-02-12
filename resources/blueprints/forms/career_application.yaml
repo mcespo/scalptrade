@@ -57,7 +57,7 @@ tabs:
               hide_display: false
               validate:
                 - required
-              placeholder: First
+              placeholder: First Name
           -
             handle: last_name
             field:
@@ -73,7 +73,7 @@ tabs:
               hide_display: false
               validate:
                 - required
-              placeholder: Last
+              placeholder: Last Name
           -
             handle: email
             field:
@@ -107,6 +107,7 @@ tabs:
               hide_display: false
               validate:
                 - required
+              placeholder: 123-456-7890
           -
             handle: linkedin_url
             field:
@@ -120,6 +121,7 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              placeholder: https://www.linkedin.com/in/...com
           -
             handle: portfolio_url
             field:
@@ -133,6 +135,7 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              placeholder: https://url...com
           -
             handle: github_url
             field:
@@ -146,6 +149,7 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              placeholder: https://github...com
           -
             handle: other_url
             field:
@@ -159,6 +163,7 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              placeholder: https://url...com
           -
             handle: university
             field:
@@ -172,6 +177,7 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              placeholder: University of ...
           -
             handle: highest_education
             field:
@@ -187,6 +193,7 @@ tabs:
               hide_display: false
               validate:
                 - required
+              placeholder: Bachelor's of ...
           -
             handle: current_education_pursuit
             field:
@@ -200,6 +207,7 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              placeholder: Master's of ...
           -
             handle: graduation_date
             field:
@@ -368,6 +376,7 @@ tabs:
               hide_display: false
               validate:
                 - required
+              placeholder: N/A
       -
         display: Submit
         fields:
