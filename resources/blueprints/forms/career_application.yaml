@@ -9,7 +9,7 @@ tabs:
             handle: role
             field:
               input_type: text
-              antlers: true
+              antlers: false
               type: text
               display: Role
               icon: text
