@@ -9,13 +9,13 @@ tabs:
             handle: role
             field:
               input_type: text
-              antlers: false
+              antlers: true
               type: text
               display: Role
               icon: text
               listable: true
               instructions_position: above
-              visibility: computed
+              visibility: read_only
               replicator_preview: false
               duplicate: false
               hide_display: false
@@ -31,7 +31,7 @@ tabs:
               show_filename: true
               show_set_alt: true
               type: assets
-              display: 'Upload Resume - PDF or Word doc (filesize must be below 1MB)'
+              display: 'Upload Resume (PDF or Word doc)'
               instructions: 'Please use only PDFs or Word Documents (.pdf, .doc, .docx)'
               validate:
                 - required
@@ -57,7 +57,7 @@ tabs:
               hide_display: false
               validate:
                 - required
-              placeholder: First Name
+              placeholder: First
           -
             handle: last_name
             field:
@@ -73,7 +73,7 @@ tabs:
               hide_display: false
               validate:
                 - required
-              placeholder: Last Name
+              placeholder: Last
           -
             handle: email
             field:
@@ -107,7 +107,6 @@ tabs:
               hide_display: false
               validate:
                 - required
-              placeholder: 123-456-7890
           -
             handle: linkedin_url
             field:
@@ -121,7 +120,6 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-              placeholder: https://www.linkedin.com/in/...com
           -
             handle: portfolio_url
             field:
@@ -135,7 +133,6 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-              placeholder: https://url...com
           -
             handle: github_url
             field:
@@ -149,7 +146,6 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-              placeholder: https://github...com
           -
             handle: other_url
             field:
@@ -163,7 +159,6 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-              placeholder: https://url...com
           -
             handle: university
             field:
@@ -177,7 +172,6 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-              placeholder: University of ...
           -
             handle: highest_education
             field:
@@ -193,7 +187,6 @@ tabs:
               hide_display: false
               validate:
                 - required
-              placeholder: Bachelor's of ...
           -
             handle: current_education_pursuit
             field:
@@ -207,7 +200,6 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-              placeholder: Master's of ...
           -
             handle: graduation_date
             field:
@@ -376,7 +368,6 @@ tabs:
               hide_display: false
               validate:
                 - required
-              placeholder: N/A
       -
         display: Submit
         fields:
