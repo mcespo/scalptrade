@@ -4,6 +4,11 @@ email:
   -
     id: lqq4s0dw
     to: careers@scalptrade.com
-    subject: 'New Job Application Submitted'
+    subject: 'New Job Application Submitted to HR@scalptrade.com'
     attachments: true
+    mailer: smtp
+  -
+    id: lsj8auyk
+    to: mcespo@gmail.com
+    subject: 'New Job Application Submitted to HR@scalptrade.com'
     mailer: smtp
