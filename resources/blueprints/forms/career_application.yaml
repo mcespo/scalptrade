@@ -31,7 +31,7 @@ tabs:
               show_filename: true
               show_set_alt: true
               type: assets
-              display: 'Upload Resume (PDF or Word doc)'
+              display: 'Upload Resume - PDF or Word doc (filesize must be below 1MB)'
               instructions: 'Please use only PDFs or Word Documents (.pdf, .doc, .docx)'
               validate:
                 - required
