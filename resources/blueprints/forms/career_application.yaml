@@ -57,6 +57,7 @@ tabs:
               hide_display: false
               validate:
                 - required
+              placeholder: First
           -
             handle: last_name
             field:
@@ -72,6 +73,7 @@ tabs:
               hide_display: false
               validate:
                 - required
+              placeholder: Last
           -
             handle: email
             field:
@@ -88,6 +90,7 @@ tabs:
               validate:
                 - required
                 - email
+              placeholder: careers@scalptrade.com
           -
             handle: phone
             field:
