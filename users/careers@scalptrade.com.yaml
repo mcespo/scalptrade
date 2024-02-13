@@ -14,4 +14,4 @@ preferences:
         - last_name
         - university
         - graduation_date
-        - allowed_to_work_in_usa
+        - require_visa_sponsorship
