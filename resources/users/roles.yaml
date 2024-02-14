@@ -2,6 +2,8 @@ editor:
   title: Editor
   permissions:
     - 'access cp'
+    - 'configure fields'
+    - 'configure form fields'
     - 'view careers entries'
     - 'edit careers entries'
     - 'create careers entries'
