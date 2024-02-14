@@ -177,14 +177,41 @@ tabs:
               replicator_preview: true
               hide_display: false
               placeholder: 'University of ...'
+              validate:
+                - required
           -
-            handle: highest_education
+            handle: major
             field:
               input_type: text
               antlers: false
               type: text
-              display: 'What is your highest level of education?'
+              display: 'University major'
               icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              placeholder: 'Science, Arts, Humanities...'
+              validate:
+                - required
+          -
+            handle: highest_education
+            field:
+              options:
+                Associate's: null
+                Bachelor's: null
+                Master's: null
+                Doctorate: null
+              taggable: false
+              push_tags: false
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              type: select
+              display: 'What is your current/highest level of education?'
+              icon: select
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -192,21 +219,6 @@ tabs:
               hide_display: false
               validate:
                 - required
-              placeholder: "Bachelor's of ..."
-          -
-            handle: current_education_pursuit
-            field:
-              input_type: text
-              antlers: false
-              type: text
-              display: 'If applicable, what education level are you currently pursuing?'
-              icon: text
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-              placeholder: "Master's of ..."
           -
             handle: graduation_date
             field:
@@ -220,6 +232,8 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              validate:
+                - required
           -
             handle: applied_to_scalp_before
             field:
@@ -340,13 +354,15 @@ tabs:
               searchable: true
               cast_booleans: false
               type: select
-              display: 'If you answered “Yes” to the question above: What is your current immigration status/basis of your work authorization?'
+              display: 'If you answered “Yes” to the question above: What is your current immigration status/basis of your work authorization? (Please select N/A if you do not require work authorization)'
               icon: select
               listable: hidden
               instructions_position: above
               visibility: visible
               replicator_preview: true
               hide_display: false
+              validate:
+                - required
           -
             handle: authorization_expiration
             field:
