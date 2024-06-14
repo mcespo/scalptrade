@@ -12,6 +12,13 @@ tabs:
               required: true
               validate:
                 - required
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              replicator_preview: true
+              input_type: text
+              antlers: true
+              hide_display: false
           -
             handle: featured_hero_image
             field:
@@ -28,7 +35,6 @@ tabs:
               allow_uploads: true
               display: 'Featured Hero Image'
               type: responsive
-              icon: assets
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -45,6 +51,13 @@ tabs:
             field:
               type: text
               display: 'Content Title'
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              replicator_preview: true
+              input_type: text
+              antlers: true
+              hide_display: false
           -
             handle: content
             field:
@@ -53,14 +66,26 @@ tabs:
               automatic_links: false
               escape_markup: false
               smartypants: false
-              antlers: false
+              antlers: true
               display: Content
               type: markdown
-              icon: markdown
               listable: hidden
               instructions_position: above
               visibility: visible
               always_save: false
+              replicator_preview: true
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - quote
+                - link
+                - image
+                - table
+              heading_anchors: false
+              table_of_contents: false
+              hide_display: false
           -
             handle: content_image
             field:
@@ -71,7 +96,6 @@ tabs:
               allow_uploads: true
               display: 'Content Image'
               type: responsive
-              icon: assets
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -84,7 +108,6 @@ tabs:
               default: false
               type: toggle
               display: 'Display Team Quotes'
-              icon: toggle
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -95,7 +118,6 @@ tabs:
               default: false
               type: toggle
               display: 'Enable Quote Loop'
-              icon: toggle
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -110,6 +132,7 @@ tabs:
             field:
               type: slug
               localizable: true
+              validate: 'max:200'
           -
             handle: parent
             field:

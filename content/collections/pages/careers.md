@@ -15,6 +15,6 @@ content_title: 'Work with Us'
 display_team_quotes: true
 enable_quote_loop: true
 ---
-Scalp Trade is a group of driven and dynamic individuals focused on deep problem solving, with the desire to be a positive force in the capital markets. We are a privately-funded company that is owned and managed by trading professionals who have set high standards around trust, leadership and integrity, we have an absolute commitment to doing it right.
+{{ business:name }} is a group of driven and dynamic individuals focused on deep problem solving, with the desire to be a positive force in the capital markets. We are a privately-funded company that is owned and managed by trading professionals who have set high standards around trust, leadership and integrity, we have an absolute commitment to doing it right.
 
-Our casual atmosphere, culture of continuous learning, innovation, and philosophy of rewarding outstanding performance based on merit rather than tenure or title has attracted brilliant people from different backgrounds. At Scalp Trade we value our people and pride ourselves on diversity.
+Our casual atmosphere, culture of continuous learning, innovation, and philosophy of rewarding outstanding performance based on merit rather than tenure or title has attracted brilliant people from different backgrounds. At {{ business:name }} we value our people and pride ourselves on diversity.

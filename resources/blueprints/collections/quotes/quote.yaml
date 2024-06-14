@@ -1,78 +1,103 @@
-sections:
+title: Quote
+tabs:
   main:
     display: Main
-    fields:
+    sections:
       -
-        handle: title
-        field:
-          type: text
-          required: true
-          validate:
-            - required
-          display: 'Full Name'
-          instructions_position: above
-          listable: hidden
-          visibility: visible
-          input_type: text
-          antlers: false
-      -
-        handle: profile_image
-        field:
-          use_breakpoints: false
-          allow_ratio: false
-          allow_fit: true
-          breakpoints:
-            - sm
-            - md
-            - lg
-            - xl
-            - 2xl
-          restrict: false
-          allow_uploads: true
-          display: 'Profile Image'
-          type: responsive
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          duplicate: false
-      -
-        handle: role
-        field:
-          input_type: text
-          antlers: false
-          display: Role
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-      -
-        handle: quote
-        field:
-          type: markdown
-          localizable: true
-          display: Quote
-          instructions_position: above
-          listable: hidden
-          visibility: visible
-          restrict: false
-          automatic_line_breaks: true
-          automatic_links: false
-          escape_markup: false
-          smartypants: false
-          antlers: false
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+              display: 'Full Name'
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              input_type: text
+              antlers: false
+          -
+            handle: profile_image
+            field:
+              use_breakpoints: false
+              allow_ratio: false
+              allow_fit: true
+              breakpoints:
+                - sm
+                - md
+                - lg
+                - xl
+                - 2xl
+              restrict: false
+              allow_uploads: true
+              display: 'Profile Image'
+              type: responsive
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              duplicate: false
+          -
+            handle: role
+            field:
+              input_type: text
+              antlers: false
+              display: Role
+              type: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+          -
+            handle: quote
+            field:
+              type: markdown
+              localizable: true
+              display: Quote
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              restrict: false
+              automatic_line_breaks: true
+              automatic_links: false
+              escape_markup: false
+              smartypants: false
+              antlers: true
+              replicator_preview: true
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - quote
+                - link
+                - image
+                - table
+              heading_anchors: false
+              table_of_contents: false
+              hide_display: false
   sidebar:
     display: Sidebar
-    fields:
+    sections:
       -
-        handle: slug
-        field:
-          type: slug
-          localizable: true
-          instructions_position: above
-          listable: hidden
-          visibility: visible
-          from: title
-          generate: true
-title: Quote
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              from: title
+              generate: true
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - quotes
+              max_items: 1
+              listable: false
+              localizable: true

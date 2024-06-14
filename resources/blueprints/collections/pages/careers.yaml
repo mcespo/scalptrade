@@ -12,6 +12,13 @@ tabs:
               required: true
               validate:
                 - required
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              replicator_preview: true
+              input_type: text
+              antlers: true
+              hide_display: false
           -
             handle: featured_hero_image
             field:
@@ -28,7 +35,6 @@ tabs:
               allow_uploads: true
               display: 'Featured Hero Image'
               type: responsive
-              icon: assets
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -45,6 +51,13 @@ tabs:
             field:
               type: text
               display: 'Content Title'
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              replicator_preview: true
+              input_type: text
+              antlers: true
+              hide_display: false
           -
             handle: content
             field:
@@ -53,14 +66,26 @@ tabs:
               automatic_links: false
               escape_markup: false
               smartypants: false
-              antlers: false
+              antlers: true
               display: Content
               type: markdown
-              icon: markdown
               listable: hidden
               instructions_position: above
               visibility: visible
               always_save: false
+              replicator_preview: true
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - quote
+                - link
+                - image
+                - table
+              heading_anchors: false
+              table_of_contents: false
+              hide_display: false
           -
             handle: content_image
             field:
@@ -71,7 +96,6 @@ tabs:
               allow_uploads: true
               display: 'Content Image'
               type: responsive
-              icon: assets
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -81,7 +105,6 @@ tabs:
               default: true
               display: 'Display Jobs List'
               type: toggle
-              icon: toggle
               instructions: 'Enabling this displays the list of available jobs. Please disable when not actively hiring for any roles.'
               listable: hidden
               instructions_position: above
@@ -93,24 +116,25 @@ tabs:
           -
             handle: display_team_quotes
             field:
-              default: false
+              default: true
               display: 'Display Team Quotes'
               type: toggle
-              icon: toggle
               listable: hidden
               instructions_position: above
               visibility: visible
+              replicator_preview: true
+              hide_display: false
           -
             handle: enable_quote_loop
             field:
-              default: false
+              default: true
               type: toggle
               display: 'Enable Quote Loop'
-              icon: toggle
               listable: hidden
               instructions_position: above
               visibility: visible
               hide_display: false
+              replicator_preview: true
   sidebar:
     display: Sidebar
     sections:
@@ -121,6 +145,7 @@ tabs:
             field:
               type: slug
               localizable: true
+              validate: 'max:200'
           -
             handle: parent
             field:

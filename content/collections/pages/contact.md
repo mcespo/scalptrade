@@ -10,7 +10,7 @@ featured_hero_image:
   src: 425-s-financial-plaza-scaled.jpg
 content_image:
   src: 2022-12-13-10.23.35-scalp-0075.jpg
-content_title: ScalpTrade
+content_title: SCALP Trade
 display_team_quotes: false
 enable_quote_loop: false
 ---
@@ -20,8 +20,8 @@ Phone: (312) 726-3556
 
 ---
 
-## We’re so glad you’ve decide to contact us!
+## We’re so glad you’ve decided to contact us!
 
-ScalpTrade is a group of driven, dynamic people and we would love to have you join our team. Please feel free to call the number above or [email message us](mailto:hr@scalptrade.com).
+{{ business:name }} is a group of driven, dynamic people and we would love to have you join our team. Please feel free to call the number above or [email message us](mailto:hr@scalptrade.com).
 
 Please allow for up to 2 business days before someone can reply to your message.

@@ -138,7 +138,7 @@ tabs:
               instructions_position: above
               visibility: visible
               always_save: false
-              default: 'The Scalp Trade team is built on the foundation of collaboration, diversity and innovation. We value critical thinkers, who are adapt at deep problem solving, and can endure a fast paced environment. We embrace individuals with grit, self-motivation, and those with the desire to experience and tackle the most difficult obstacles.'
+              default: 'The {{ business:name }} team is built on the foundation of collaboration, diversity and innovation. We value critical thinkers, who are adapt at deep problem solving, and can endure a fast paced environment. We embrace individuals with grit, self-motivation, and those with the desire to experience and tackle the most difficult obstacles.'
               hide_display: false
               replicator_preview: true
               buttons:
