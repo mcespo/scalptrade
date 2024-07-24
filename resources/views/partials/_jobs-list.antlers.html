@@ -6,7 +6,12 @@
         <p class="mt-1 text-sm text-gray-500"></p>
     </div>
     <ul role="list" class="divide-y divide-gray-200">
-        {{ collection:careers }} {{ partial:jobs-list-item }} {{
-        /collection:careers }}
+        {{ if {collection:count in="careers"} < 1 }}
+            <li class="px-4 py-4 sm:px-6">No available listings at this time.</li>
+        {{ else }}
+            {{ collection:careers }}
+                {{ partial:jobs-list-item }}
+            {{ /collection:careers }}
+        {{ /if }}
     </ul>
 </section>
