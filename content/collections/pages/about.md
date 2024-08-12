@@ -1,10 +1,10 @@
 ---
 id: 1250aa2c-4741-4722-b9e8-ddc5e293f966
 blueprint: page
-title: ABOUT
+title: About
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: ef3cfc61-4d9d-4d09-a36c-c06664b8c4b9
-updated_at: 1723488919
+updated_at: 1723488959
 featured_hero_image:
   src: 2022-12-13-10.29.54-scalp-0092.jpg
 template: default
