@@ -29,6 +29,7 @@ preferences:
         - role
         - first_name
         - last_name
+      per_page: 100
   assets:
     assets:
       per_page: 100
