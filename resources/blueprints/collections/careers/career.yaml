@@ -21,7 +21,6 @@ tabs:
               allow_uploads: true
               display: 'Featured Hero Image'
               type: responsive
-              icon: assets
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -56,7 +55,6 @@ tabs:
               cast_booleans: false
               display: 'Job Type'
               type: select
-              icon: select
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -68,7 +66,6 @@ tabs:
               antlers: false
               display: Location
               type: text
-              icon: text
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -87,7 +84,6 @@ tabs:
               cast_booleans: false
               display: Department
               type: select
-              icon: select
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -133,7 +129,6 @@ tabs:
               antlers: false
               display: 'Key Responsibilities'
               type: markdown
-              icon: markdown
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -163,7 +158,6 @@ tabs:
               antlers: false
               display: 'Required Skills and Qualifications'
               type: markdown
-              icon: markdown
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -192,7 +186,6 @@ tabs:
               antlers: false
               display: 'Preferred Skills'
               type: markdown
-              icon: markdown
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -221,15 +214,10 @@ tabs:
               antlers: false
               display: 'Personal Attributes'
               type: markdown
-              icon: markdown
               listable: hidden
               instructions_position: above
               visibility: visible
               always_save: false
-              default: |-
-                Scalp's primary focus is trading equities, equity options, and futures. We aim to better the market through tighter spreads, and providing liquidity to all market participants.
-
-                Scalp operates on the premise of the market, meaning that we believe in the creation of jobs, and capital formation through a well regulated capital market structure. This belief helps to drive our design, implementation and execution of our trading decisions.
               hide_display: false
               replicator_preview: true
               buttons:
@@ -254,15 +242,10 @@ tabs:
               antlers: false
               display: 'Application Process'
               type: markdown
-              icon: markdown
               listable: hidden
               instructions_position: above
               visibility: visible
               always_save: false
-              default: |-
-                Scalp's primary focus is trading equities, equity options, and futures. We aim to better the market through tighter spreads, and providing liquidity to all market participants.
-
-                Scalp operates on the premise of the market, meaning that we believe in the creation of jobs, and capital formation through a well regulated capital market structure. This belief helps to drive our design, implementation and execution of our trading decisions.
               hide_display: false
               replicator_preview: true
               buttons:
@@ -302,7 +285,6 @@ tabs:
               blueprint: false
               display: 'Template Field'
               type: template
-              icon: template
               listable: hidden
               instructions_position: above
               visibility: visible
