@@ -4,7 +4,7 @@ blueprint: page
 title: 'SCALP Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1723471683
+updated_at: 1723472104
 content_image:
   src: covenant.jpg
 featured_hero_image:
@@ -39,7 +39,7 @@ Please join us in partnering with this vital organization – to provide hope to
 
 # Connor Hunt Memorial Foundation
 
-![]()
+![](/assets/03ad996f-9149-4fc4-bb0e-42ac1268f770_2-large.jpeg)
 
 At SCALP Trade, we are dedicated to making a difference in the fight against pediatric cancer. Our commitment to this vital cause was inspired by the courageous journey of Connor Hunt, who, since his diagnosis in 2012 with stage 4 Alveolar Rhabdomyosarcoma, exemplified incredible strength and grace. Despite his challenging battle with this rare and aggressive cancer, Connor’s spirit and resilience left a lasting impact on everyone who knew him.
 
