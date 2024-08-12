@@ -4,7 +4,7 @@ blueprint: page
 title: 'SCALP Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1723472104
+updated_at: 1723474083
 content_image:
   src: covenant.jpg
 featured_hero_image:
@@ -46,3 +46,5 @@ At SCALP Trade, we are dedicated to making a difference in the fight against ped
 In 2020, we joined the fight in supporting The Connor Hunt Memorial Foundation.The Connor Hunt Memorial Foundation was established to fund crucial pediatric cancer research at Ann & Robert H. Lurie Children’s Hospital in Chicago. This research is vital, as it offers hope and improved treatment options for children battling cancer, not only in Chicago but around the globe. For some, these clinical trials represent a critical lifeline.
 
 Join us in supporting this worthy cause. Together, we can continue to honor Connor’s legacy and advance the mission of the Connor Hunt Memorial Foundation, bringing hope and progress to children and families facing this formidable challenge.
+
+![](/assets/img-7071-3-large.jpeg)
