@@ -13,5 +13,4 @@ preferences:
         - first_name
         - last_name
         - university
-        - graduation_date
-        - require_visa_sponsorship
+        - applied_to_scalp_before
