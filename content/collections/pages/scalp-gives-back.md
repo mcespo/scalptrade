@@ -4,7 +4,7 @@ blueprint: page
 title: 'SCALP Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1725073131
+updated_at: 1725073197
 content_image:
   src: covenant.jpg
 featured_hero_image:
@@ -31,7 +31,7 @@ Since 2017, CHIL has reached nearly 2,000 young people in crisis, providing a co
 
 Please join us in partnering with this vital organization – to provide hope to young people in crisis and a practical path out of homelessness and toward a brighter future.
 
-{.className}[Donate to CHIL today](https://www.covenanthouseil.org/donate)
+{.button}[Donate to CHIL today](https://www.covenanthouseil.org/donate)
 
 ![Covenant House](/assets/covenant-2.jpg)
 
