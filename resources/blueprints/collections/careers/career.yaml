@@ -3,10 +3,8 @@ tabs:
   main:
     display: Main
     sections:
-      -
-        fields:
-          -
-            handle: featured_hero_image
+      - fields:
+          - handle: featured_hero_image
             field:
               use_breakpoints: false
               allow_ratio: false
@@ -26,8 +24,7 @@ tabs:
               visibility: visible
               always_save: false
               duplicate: false
-          -
-            handle: title
+          - handle: title
             field:
               type: text
               required: true
@@ -40,8 +37,7 @@ tabs:
               always_save: false
               input_type: text
               antlers: false
-          -
-            handle: job_type
+          - handle: job_type
             field:
               options:
                 Full-time: null
@@ -59,8 +55,7 @@ tabs:
               instructions_position: above
               visibility: visible
               always_save: false
-          -
-            handle: location
+          - handle: location
             field:
               input_type: text
               antlers: false
@@ -70,8 +65,7 @@ tabs:
               instructions_position: above
               visibility: visible
               always_save: false
-          -
-            handle: department
+          - handle: department
             field:
               options:
                 Engineering: null
@@ -89,8 +83,7 @@ tabs:
               visibility: visible
               always_save: false
               hide_display: false
-          -
-            handle: overview
+          - handle: overview
             field:
               type: markdown
               localizable: true
@@ -118,8 +111,7 @@ tabs:
               heading_anchors: false
               table_of_contents: false
               hide_display: false
-          -
-            handle: key_responsibilities
+          - handle: key_responsibilities
             field:
               restrict: false
               automatic_line_breaks: true
@@ -147,8 +139,7 @@ tabs:
                 - table
               heading_anchors: false
               table_of_contents: false
-          -
-            handle: required_skills_and_qualifications
+          - handle: required_skills_and_qualifications
             field:
               restrict: false
               automatic_line_breaks: true
@@ -175,8 +166,7 @@ tabs:
               heading_anchors: false
               table_of_contents: false
               hide_display: false
-          -
-            handle: preferred_skills
+          - handle: preferred_skills
             field:
               restrict: false
               automatic_line_breaks: true
@@ -203,8 +193,7 @@ tabs:
               heading_anchors: false
               table_of_contents: false
               hide_display: false
-          -
-            handle: personal_attributes
+          - handle: personal_attributes
             field:
               restrict: false
               automatic_line_breaks: true
@@ -231,8 +220,7 @@ tabs:
                 - table
               heading_anchors: false
               table_of_contents: false
-          -
-            handle: application_process
+          - handle: application_process
             field:
               restrict: false
               automatic_line_breaks: true
@@ -262,24 +250,20 @@ tabs:
   sidebar:
     display: Sidebar
     sections:
-      -
-        fields:
-          -
-            handle: slug
+      - fields:
+          - handle: slug
             field:
               type: slug
               localizable: true
               validate: 'max:200'
-          -
-            handle: date
+          - handle: date
             field:
               type: date
               required: true
               default: now
               validate:
                 - required
-          -
-            handle: template_field
+          - handle: template_field
             field:
               hide_partials: true
               blueprint: false

@@ -1,9 +1,5 @@
 tree:
-  -
-    entry: aab24cb0-66e2-46b9-ac36-46b752207387
-  -
-    entry: 60267a54-1676-41fb-9b19-e773f9f2961c
-  -
-    entry: 15a35a5f-c8c5-4a20-bc3d-9a217ad4c56e
-  -
-    entry: ec4b957a-228a-4ec5-82cd-e75928366d97
+  - entry: aab24cb0-66e2-46b9-ac36-46b752207387
+  - entry: 60267a54-1676-41fb-9b19-e773f9f2961c
+  - entry: 15a35a5f-c8c5-4a20-bc3d-9a217ad4c56e
+  - entry: ec4b957a-228a-4ec5-82cd-e75928366d97

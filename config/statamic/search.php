@@ -1,8 +1,7 @@
 <?php
 
 return [
-
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Default search index
     |--------------------------------------------------------------------------
@@ -12,9 +11,9 @@ return [
     |
     */
 
-    'default' => env('STATAMIC_DEFAULT_SEARCH_INDEX', 'default'),
+  "default" => env("STATAMIC_DEFAULT_SEARCH_INDEX", "default"),
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Search Indexes
     |--------------------------------------------------------------------------
@@ -23,22 +22,20 @@ return [
     |
     */
 
-    'indexes' => [
-
-        'default' => [
-            'driver' => 'local',
-            'searchables' => 'all',
-            'fields' => ['title'],
-        ],
-
-        // 'blog' => [
-        //     'driver' => 'local',
-        //     'searchables' => 'collection:blog',
-        // ],
-
+  "indexes" => [
+    "default" => [
+      "driver" => "local",
+      "searchables" => "all",
+      "fields" => ["title"],
     ],
 
-    /*
+    // 'blog' => [
+    //     'driver' => 'local',
+    //     'searchables' => 'collection:blog',
+    // ],
+  ],
+
+  /*
     |--------------------------------------------------------------------------
     | Driver Defaults
     |--------------------------------------------------------------------------
@@ -50,22 +47,20 @@ return [
     |
     */
 
-    'drivers' => [
-
-        'local' => [
-            'path' => storage_path('statamic/search'),
-        ],
-
-        'algolia' => [
-            'credentials' => [
-                'id' => env('ALGOLIA_APP_ID', ''),
-                'secret' => env('ALGOLIA_SECRET', ''),
-            ],
-        ],
-
+  "drivers" => [
+    "local" => [
+      "path" => storage_path("statamic/search"),
     ],
 
-    /*
+    "algolia" => [
+      "credentials" => [
+        "id" => env("ALGOLIA_APP_ID", ""),
+        "secret" => env("ALGOLIA_SECRET", ""),
+      ],
+    ],
+  ],
+
+  /*
     |--------------------------------------------------------------------------
     | Search Defaults
     |--------------------------------------------------------------------------
@@ -75,8 +70,7 @@ return [
     |
     */
 
-    'defaults' => [
-        'fields' => ['title'],
-    ],
-
+  "defaults" => [
+    "fields" => ["title"],
+  ],
 ];

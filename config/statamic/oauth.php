@@ -1,16 +1,14 @@
 <?php
 
 return [
+  "enabled" => env("STATAMIC_OAUTH_ENABLED", false),
 
-    'enabled' => env('STATAMIC_OAUTH_ENABLED', false),
+  "providers" => [
+    // 'github',
+  ],
 
-    'providers' => [
-        // 'github',
-    ],
-
-    'routes' => [
-        'login' => 'oauth/{provider}',
-        'callback' => 'oauth/{provider}/callback',
-    ],
-
+  "routes" => [
+    "login" => "oauth/{provider}",
+    "callback" => "oauth/{provider}/callback",
+  ],
 ];

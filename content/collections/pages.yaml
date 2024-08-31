@@ -1,5 +1,5 @@
 title: Pages
 structure:
-    root: true
+  root: true
 route: '{parent_uri}/{slug}'
 propagate: true

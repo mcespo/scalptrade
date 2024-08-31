@@ -1,11 +1,9 @@
 <?php
 
 return [
+  "pro" => true,
 
-    'pro' => true,
-
-    'addons' => [
-        //
-    ],
-
+  "addons" => [
+    //
+  ],
 ];

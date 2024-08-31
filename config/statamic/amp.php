@@ -1,8 +1,6 @@
 <?php
 
 return [
-
-    'enabled' => false,
-    'route' => 'amp',
-
+  "enabled" => false,
+  "route" => "amp",
 ];

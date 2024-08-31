@@ -1,8 +1,7 @@
 <?php
 
 return [
-
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Authentication Defaults
     |--------------------------------------------------------------------------
@@ -13,12 +12,12 @@ return [
     |
     */
 
-    'defaults' => [
-        'guard' => 'web',
-        'passwords' => 'resets',
-    ],
+  "defaults" => [
+    "guard" => "web",
+    "passwords" => "resets",
+  ],
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Authentication Guards
     |--------------------------------------------------------------------------
@@ -35,14 +34,14 @@ return [
     |
     */
 
-    'guards' => [
-        'web' => [
-            'driver' => 'session',
-            'provider' => 'users',
-        ],
+  "guards" => [
+    "web" => [
+      "driver" => "session",
+      "provider" => "users",
     ],
+  ],
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | User Providers
     |--------------------------------------------------------------------------
@@ -59,23 +58,23 @@ return [
     |
     */
 
-    'providers' => [
-        'users' => [
-            'driver' => 'statamic',
-        ],
-
-        // 'users' => [
-        //     'driver' => 'eloquent',
-        //     'model' => App\Models\User::class,
-        // ],
-
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+  "providers" => [
+    "users" => [
+      "driver" => "statamic",
     ],
 
-    /*
+    // 'users' => [
+    //     'driver' => 'eloquent',
+    //     'model' => App\Models\User::class,
+    // ],
+
+    // 'users' => [
+    //     'driver' => 'database',
+    //     'table' => 'users',
+    // ],
+  ],
+
+  /*
     |--------------------------------------------------------------------------
     | Resetting Passwords
     |--------------------------------------------------------------------------
@@ -90,23 +89,23 @@ return [
     |
     */
 
-    'passwords' => [
-        'resets' => [
-            'provider' => 'users',
-            'table' => 'password_resets',
-            'expire' => 60,
-            'throttle' => 60,
-        ],
-
-        'activations' => [
-            'provider' => 'users',
-            'table' => 'password_activations',
-            'expire' => 4320,
-            'throttle' => 60,
-        ],
+  "passwords" => [
+    "resets" => [
+      "provider" => "users",
+      "table" => "password_resets",
+      "expire" => 60,
+      "throttle" => 60,
     ],
 
-    /*
+    "activations" => [
+      "provider" => "users",
+      "table" => "password_activations",
+      "expire" => 4320,
+      "throttle" => 60,
+    ],
+  ],
+
+  /*
     |--------------------------------------------------------------------------
     | Password Confirmation Timeout
     |--------------------------------------------------------------------------
@@ -117,6 +116,5 @@ return [
     |
     */
 
-    'password_timeout' => 10800,
-
+  "password_timeout" => 10800,
 ];

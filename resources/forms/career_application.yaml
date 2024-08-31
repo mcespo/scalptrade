@@ -1,19 +1,16 @@
 title: 'Career Application'
 honeypot: scalpy-honeypot
 email:
-  -
-    id: lqq4s0dw
+  - id: lqq4s0dw
     to: careers@scalptrade.com
     subject: 'New Job Application Submitted to HR@scalptrade.com'
     attachments: true
     mailer: smtp
-  -
-    id: lsj8auyk
+  - id: lsj8auyk
     to: mcespo@gmail.com
     subject: 'New {{ role }} submission from {{ first_name }} {{ last_name }}'
     mailer: smtp
-  -
-    to: "{{ email }}"
+  - to: '{{ email }}'
     subject: 'Applied to SCALP Trade {{ role }} role'
     markdown: true
     text: 'job-submission'

@@ -1,8 +1,7 @@
 <?php
 
 return [
-
-    /*
+  /*
     |--------------------------------------------------------------------------
     | GraphQL
     |--------------------------------------------------------------------------
@@ -14,19 +13,19 @@ return [
     |
     */
 
-    'enabled' => env('STATAMIC_GRAPHQL_ENABLED', false),
+  "enabled" => env("STATAMIC_GRAPHQL_ENABLED", false),
 
-    'resources' => [
-        'collections' => false,
-        'navs' => false,
-        'taxonomies' => false,
-        'assets' => false,
-        'globals' => false,
-        'sites' => false,
-        'users' => false,
-    ],
+  "resources" => [
+    "collections" => false,
+    "navs" => false,
+    "taxonomies" => false,
+    "assets" => false,
+    "globals" => false,
+    "sites" => false,
+    "users" => false,
+  ],
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Caching
     |--------------------------------------------------------------------------
@@ -39,8 +38,7 @@ return [
     |
     */
 
-    'cache' => [
-        'expiry' => 60,
-    ],
-
+  "cache" => [
+    "expiry" => 60,
+  ],
 ];

@@ -7,24 +7,24 @@ use Statamic\Statamic;
 
 class AppServiceProvider extends ServiceProvider
 {
-    /**
-     * Register any application services.
-     *
-     * @return void
-     */
-    public function register()
-    {
-        //
-    }
+  /**
+   * Register any application services.
+   *
+   * @return void
+   */
+  public function register()
+  {
+    //
+  }
 
-    /**
-     * Bootstrap any application services.
-     *
-     * @return void
-     */
-    public function boot()
-    {
-        // Statamic::script('app', 'cp');
-        // Statamic::style('app', 'cp');
-    }
+  /**
+   * Bootstrap any application services.
+   *
+   * @return void
+   */
+  public function boot()
+  {
+    // Statamic::script('app', 'cp');
+    // Statamic::style('app', 'cp');
+  }
 }
