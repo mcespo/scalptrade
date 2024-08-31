@@ -1,8 +1,7 @@
 <?php
 
 return [
-
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Revisions
     |--------------------------------------------------------------------------
@@ -13,9 +12,9 @@ return [
     |
     */
 
-    'enabled' => env('STATAMIC_REVISIONS_ENABLED', false),
+  "enabled" => env("STATAMIC_REVISIONS_ENABLED", false),
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Storage Path
     |--------------------------------------------------------------------------
@@ -25,6 +24,5 @@ return [
     |
     */
 
-    'path' => storage_path('statamic/revisions'),
-
+  "path" => storage_path("statamic/revisions"),
 ];

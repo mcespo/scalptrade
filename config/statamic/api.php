@@ -1,8 +1,7 @@
 <?php
 
 return [
-
-    /*
+  /*
     |--------------------------------------------------------------------------
     | API
     |--------------------------------------------------------------------------
@@ -15,21 +14,21 @@ return [
     |
     */
 
-    'enabled' => env('STATAMIC_API_ENABLED', false),
+  "enabled" => env("STATAMIC_API_ENABLED", false),
 
-    'resources' => [
-        'collections' => false,
-        'navs' => false,
-        'taxonomies' => false,
-        'assets' => false,
-        'globals' => false,
-        'forms' => false,
-        'users' => false,
-    ],
+  "resources" => [
+    "collections" => false,
+    "navs" => false,
+    "taxonomies" => false,
+    "assets" => false,
+    "globals" => false,
+    "forms" => false,
+    "users" => false,
+  ],
 
-    'route' => env('STATAMIC_API_ROUTE', 'api'),
+  "route" => env("STATAMIC_API_ROUTE", "api"),
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Middleware & Authentication
     |--------------------------------------------------------------------------
@@ -40,9 +39,9 @@ return [
     |
     */
 
-    'middleware' => env('STATAMIC_API_MIDDLEWARE', 'api'),
+  "middleware" => env("STATAMIC_API_MIDDLEWARE", "api"),
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Pagination
     |--------------------------------------------------------------------------
@@ -51,9 +50,9 @@ return [
     |
     */
 
-    'pagination_size' => 50,
+  "pagination_size" => 50,
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Caching
     |--------------------------------------------------------------------------
@@ -66,8 +65,7 @@ return [
     |
     */
 
-    'cache' => [
-        'expiry' => 60,
-    ],
-
+  "cache" => [
+    "expiry" => 60,
+  ],
 ];

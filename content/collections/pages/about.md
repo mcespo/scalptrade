@@ -13,6 +13,7 @@ display_team_quotes: true
 enable_quote_loop: false
 parent: home
 ---
+
 {{ business:name }} was founded on family values, and the name originates from the Founder, Stanley Awdisho, his wife and three children. The letters in SCALP come from the first letter of each family member's name to remind employees that SCALP is a family. With these values embedded in our name, team members are reminded that they will always have a home here at {{ business:name }}.
 
 **Our Culture**

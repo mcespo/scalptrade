@@ -1,7 +1,7 @@
 <?php
 
 return [
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Editor
     |--------------------------------------------------------------------------
@@ -12,9 +12,9 @@ return [
     | Possible values are 'phpstorm', 'vscode', 'vscode-insiders', 'sublime' and 'atom'.
     */
 
-    'editor' => env('IGNITION_EDITOR', 'phpstorm'),
+  "editor" => env("IGNITION_EDITOR", "phpstorm"),
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Remote Path Mapping
     |--------------------------------------------------------------------------
@@ -33,10 +33,10 @@ return [
     |                     `C:\Users\<name>\Documents\Code`.
     */
 
-    'remote-sites-path' => env('IGNITION_REMOTE_SITES_PATH', ''),
-    'local-sites-path' => env('IGNITION_LOCAL_SITES_PATH', ''),
+  "remote-sites-path" => env("IGNITION_REMOTE_SITES_PATH", ""),
+  "local-sites-path" => env("IGNITION_LOCAL_SITES_PATH", ""),
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Theme
     |--------------------------------------------------------------------------
@@ -45,9 +45,9 @@ return [
     |
     */
 
-    'theme' => env('IGNITION_THEME', 'light'),
+  "theme" => env("IGNITION_THEME", "light"),
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Ignore solution providers
     |--------------------------------------------------------------------------
@@ -57,11 +57,9 @@ return [
     |
     */
 
-    'ignored_solution_providers' => [
-        \Facade\Ignition\SolutionProviders\DefaultDbNameSolutionProvider::class,
-    ],
+  "ignored_solution_providers" => [\Facade\Ignition\SolutionProviders\DefaultDbNameSolutionProvider::class],
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Sharing
     |--------------------------------------------------------------------------
@@ -72,5 +70,5 @@ return [
     |
     */
 
-    'enable_share_button' => env('IGNITION_SHARING_ENABLED', true),
+  "enable_share_button" => env("IGNITION_SHARING_ENABLED", true),
 ];

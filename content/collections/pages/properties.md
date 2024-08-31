@@ -11,6 +11,7 @@ display_team_quotes: false
 enable_quote_loop: false
 parent: home
 ---
+
 SCALP Serving Local Communities
 
 SCALP Properties was created to help underserved communities, by investing in safe, affordable housing in neighborhoods that need it the most. Our goal is to enhance communities by investing, rebuilding and providing housing with modern amenities to the South and Westside of Chicago.

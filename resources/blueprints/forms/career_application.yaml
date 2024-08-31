@@ -2,11 +2,9 @@ tabs:
   main:
     display: Main
     sections:
-      -
-        display: Details
+      - display: Details
         fields:
-          -
-            handle: role
+          - handle: role
             field:
               input_type: text
               antlers: true
@@ -20,8 +18,7 @@ tabs:
               duplicate: false
               hide_display: false
               always_save: true
-          -
-            handle: upload_resume
+          - handle: upload_resume
             field:
               max_files: 1
               mode: list
@@ -42,8 +39,7 @@ tabs:
               replicator_preview: true
               hide_display: false
               folder: resume-submissions
-          -
-            handle: first_name
+          - handle: first_name
             field:
               input_type: text
               antlers: false
@@ -58,8 +54,7 @@ tabs:
               validate:
                 - required
               placeholder: 'First Name'
-          -
-            handle: last_name
+          - handle: last_name
             field:
               input_type: text
               antlers: false
@@ -74,8 +69,7 @@ tabs:
               validate:
                 - required
               placeholder: 'Last Name'
-          -
-            handle: email
+          - handle: email
             field:
               input_type: email
               antlers: false
@@ -91,8 +85,7 @@ tabs:
                 - required
                 - email
               placeholder: careers@scalptrade.com
-          -
-            handle: phone
+          - handle: phone
             field:
               input_type: tel
               character_limit: 20
@@ -107,8 +100,7 @@ tabs:
               hide_display: false
               validate:
                 - required
-          -
-            handle: linkedin_url
+          - handle: linkedin_url
             field:
               input_type: url
               antlers: false
@@ -121,8 +113,7 @@ tabs:
               replicator_preview: true
               hide_display: false
               placeholder: 'https://www.linkedin.com/in/...com'
-          -
-            handle: portfolio_url
+          - handle: portfolio_url
             field:
               input_type: url
               antlers: false
@@ -135,8 +126,7 @@ tabs:
               replicator_preview: true
               hide_display: false
               placeholder: 'https://url...com'
-          -
-            handle: github_url
+          - handle: github_url
             field:
               input_type: url
               antlers: false
@@ -149,8 +139,7 @@ tabs:
               replicator_preview: true
               hide_display: false
               placeholder: 'https://github...com'
-          -
-            handle: other_url
+          - handle: other_url
             field:
               input_type: url
               antlers: false
@@ -163,8 +152,7 @@ tabs:
               replicator_preview: true
               hide_display: false
               placeholder: 'https://url...com'
-          -
-            handle: university
+          - handle: university
             field:
               input_type: text
               antlers: false
@@ -179,8 +167,7 @@ tabs:
               placeholder: 'University of ...'
               validate:
                 - required
-          -
-            handle: major
+          - handle: major
             field:
               input_type: text
               antlers: false
@@ -195,8 +182,7 @@ tabs:
               placeholder: 'Science, Arts, Humanities...'
               validate:
                 - required
-          -
-            handle: highest_education
+          - handle: highest_education
             field:
               options:
                 Associate's: null
@@ -219,8 +205,7 @@ tabs:
               hide_display: false
               validate:
                 - required
-          -
-            handle: graduation_date
+          - handle: graduation_date
             field:
               input_type: date
               antlers: false
@@ -234,8 +219,7 @@ tabs:
               hide_display: false
               validate:
                 - required
-          -
-            handle: applied_to_scalp_before
+          - handle: applied_to_scalp_before
             field:
               options:
                 'No': null
@@ -252,8 +236,7 @@ tabs:
               hide_display: false
               validate:
                 - required
-          -
-            handle: how_did_you_hear_about_job
+          - handle: how_did_you_hear_about_job
             field:
               options:
                 Website: null
@@ -276,8 +259,7 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-          -
-            handle: other_or_employee_details
+          - handle: other_or_employee_details
             field:
               input_type: text
               antlers: false
@@ -290,11 +272,9 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-      -
-        display: Authorization
+      - display: Authorization
         fields:
-          -
-            handle: allowed_to_work_in_usa
+          - handle: allowed_to_work_in_usa
             field:
               options:
                 'No': null
@@ -311,8 +291,7 @@ tabs:
               hide_display: false
               validate:
                 - required
-          -
-            handle: require_visa_sponsorship
+          - handle: require_visa_sponsorship
             field:
               options:
                 'No': null
@@ -329,8 +308,7 @@ tabs:
               hide_display: false
               validate:
                 - required
-          -
-            handle: visa_status
+          - handle: visa_status
             field:
               options:
                 'N/A ': null
@@ -363,8 +341,7 @@ tabs:
               hide_display: false
               validate:
                 - required
-          -
-            handle: authorization_expiration
+          - handle: authorization_expiration
             field:
               input_type: date
               antlers: false
@@ -376,8 +353,7 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-          -
-            handle: sponsorhip_needs_details
+          - handle: sponsorhip_needs_details
             field:
               input_type: text
               antlers: false
@@ -391,11 +367,9 @@ tabs:
               hide_display: false
               validate:
                 - required
-      -
-        display: Submit
+      - display: Submit
         fields:
-          -
-            handle: all_information_correct
+          - handle: all_information_correct
             field:
               options:
                 'No': null

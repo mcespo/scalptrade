@@ -3,10 +3,8 @@ tabs:
   header:
     display: Header
     sections:
-      -
-        fields:
-          -
-            handle: title
+      - fields:
+          - handle: title
             field:
               type: text
               required: true
@@ -19,8 +17,7 @@ tabs:
               input_type: text
               antlers: true
               hide_display: false
-          -
-            handle: featured_hero_image
+          - handle: featured_hero_image
             field:
               use_breakpoints: false
               allow_ratio: false
@@ -43,11 +40,9 @@ tabs:
   main:
     display: Main
     sections:
-      -
-        display: 'Content Area'
+      - display: 'Content Area'
         fields:
-          -
-            handle: content_title
+          - handle: content_title
             field:
               type: text
               display: 'Content Title'
@@ -58,8 +53,7 @@ tabs:
               input_type: text
               antlers: true
               hide_display: false
-          -
-            handle: content
+          - handle: content
             field:
               restrict: false
               automatic_line_breaks: true
@@ -86,8 +80,7 @@ tabs:
               heading_anchors: false
               table_of_contents: false
               hide_display: false
-          -
-            handle: content_image
+          - handle: content_image
             field:
               use_breakpoints: false
               allow_ratio: false
@@ -99,8 +92,7 @@ tabs:
               listable: hidden
               instructions_position: above
               visibility: visible
-          -
-            handle: display_jobs_list
+          - handle: display_jobs_list
             field:
               default: true
               display: 'Display Jobs List'
@@ -110,11 +102,9 @@ tabs:
               instructions_position: above
               visibility: visible
               always_save: false
-      -
-        display: 'Quotes Area'
+      - display: 'Quotes Area'
         fields:
-          -
-            handle: display_team_quotes
+          - handle: display_team_quotes
             field:
               default: true
               display: 'Display Team Quotes'
@@ -124,8 +114,7 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-          -
-            handle: enable_quote_loop
+          - handle: enable_quote_loop
             field:
               default: true
               type: toggle
@@ -138,16 +127,13 @@ tabs:
   sidebar:
     display: Sidebar
     sections:
-      -
-        fields:
-          -
-            handle: slug
+      - fields:
+          - handle: slug
             field:
               type: slug
               localizable: true
               validate: 'max:200'
-          -
-            handle: parent
+          - handle: parent
             field:
               type: entries
               collections:
@@ -155,8 +141,7 @@ tabs:
               max_items: 1
               listable: false
               localizable: true
-          -
-            handle: template
+          - handle: template
             field:
               type: template
               display: Template

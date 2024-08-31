@@ -1,0 +1,13 @@
+{
+  "resources/css/site.css": {
+    "file": "assets/site-PPBnNtbs.css",
+    "src": "resources/css/site.css",
+    "isEntry": true
+  },
+  "resources/js/site.js": {
+    "file": "assets/site-B-i1bRw_.js",
+    "name": "site",
+    "src": "resources/js/site.js",
+    "isEntry": true
+  }
+}

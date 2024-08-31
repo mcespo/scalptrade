@@ -1,8 +1,7 @@
 <?php
 
 return [
-
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Default (or site-wide) Scheme
     |--------------------------------------------------------------------------
@@ -13,9 +12,9 @@ return [
     |
     */
 
-    'default' => null,
+  "default" => null,
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Protection Schemes
     |--------------------------------------------------------------------------
@@ -28,25 +27,22 @@ return [
     |
     */
 
-    'schemes' => [
-
-        'ip_address' => [
-            'driver' => 'ip_address',
-            'allowed' => ['127.0.0.1'],
-        ],
-
-        'logged_in' => [
-            'driver' => 'auth',
-            'login_url' => '/login',
-            'append_redirect' => true,
-        ],
-
-        'password' => [
-            'driver' => 'password',
-            'allowed' => ['secret'],
-            'form_url' => null,
-        ],
-
+  "schemes" => [
+    "ip_address" => [
+      "driver" => "ip_address",
+      "allowed" => ["127.0.0.1"],
     ],
 
+    "logged_in" => [
+      "driver" => "auth",
+      "login_url" => "/login",
+      "append_redirect" => true,
+    ],
+
+    "password" => [
+      "driver" => "password",
+      "allowed" => ["secret"],
+      "form_url" => null,
+    ],
+  ],
 ];
