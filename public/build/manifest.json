@@ -1,8 +1,48 @@
 {
   "resources/css/site.css": {
-    "file": "assets/site-PPBnNtbs.css",
+    "file": "assets/site-CkYG4N6v.css",
     "src": "resources/css/site.css",
     "isEntry": true
+  },
+  "resources/fonts/oswald-v49-latin-700.woff": {
+    "file": "assets/oswald-v49-latin-700-CARugU1Q.woff",
+    "src": "resources/fonts/oswald-v49-latin-700.woff"
+  },
+  "resources/fonts/oswald-v49-latin-700.woff2": {
+    "file": "assets/oswald-v49-latin-700-CdAnKZ7G.woff2",
+    "src": "resources/fonts/oswald-v49-latin-700.woff2"
+  },
+  "resources/fonts/source-serif-pro-v15-latin-200.woff": {
+    "file": "assets/source-serif-pro-v15-latin-200-wEpmmHu3.woff",
+    "src": "resources/fonts/source-serif-pro-v15-latin-200.woff"
+  },
+  "resources/fonts/source-serif-pro-v15-latin-200.woff2": {
+    "file": "assets/source-serif-pro-v15-latin-200-CriDiU5j.woff2",
+    "src": "resources/fonts/source-serif-pro-v15-latin-200.woff2"
+  },
+  "resources/fonts/source-serif-pro-v15-latin-700.woff": {
+    "file": "assets/source-serif-pro-v15-latin-700-DBIktdf8.woff",
+    "src": "resources/fonts/source-serif-pro-v15-latin-700.woff"
+  },
+  "resources/fonts/source-serif-pro-v15-latin-700.woff2": {
+    "file": "assets/source-serif-pro-v15-latin-700-CVDNqQzM.woff2",
+    "src": "resources/fonts/source-serif-pro-v15-latin-700.woff2"
+  },
+  "resources/fonts/source-serif-pro-v15-latin-italic.woff": {
+    "file": "assets/source-serif-pro-v15-latin-italic-C76SO5ry.woff",
+    "src": "resources/fonts/source-serif-pro-v15-latin-italic.woff"
+  },
+  "resources/fonts/source-serif-pro-v15-latin-italic.woff2": {
+    "file": "assets/source-serif-pro-v15-latin-italic-vIcxmWz_.woff2",
+    "src": "resources/fonts/source-serif-pro-v15-latin-italic.woff2"
+  },
+  "resources/fonts/source-serif-pro-v15-latin-regular.woff": {
+    "file": "assets/source-serif-pro-v15-latin-regular-O7tBs83Z.woff",
+    "src": "resources/fonts/source-serif-pro-v15-latin-regular.woff"
+  },
+  "resources/fonts/source-serif-pro-v15-latin-regular.woff2": {
+    "file": "assets/source-serif-pro-v15-latin-regular-7fpMNWrK.woff2",
+    "src": "resources/fonts/source-serif-pro-v15-latin-regular.woff2"
   },
   "resources/js/site.js": {
     "file": "assets/site-B-i1bRw_.js",
