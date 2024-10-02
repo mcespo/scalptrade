@@ -32,4 +32,4 @@ preferences:
       per_page: 100
   assets:
     assets:
-      per_page: 100
+      per_page: 500
