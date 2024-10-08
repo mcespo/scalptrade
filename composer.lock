@@ -4650,16 +4650,16 @@
     },
     {
       "name": "spatie/statamic-responsive-images",
-      "version": "v5.0.0",
+      "version": "v5.0.1",
       "source": {
         "type": "git",
         "url": "https://github.com/spatie/statamic-responsive-images.git",
-        "reference": "d6dd048aba1e61a283a16992ead877b184a1f3a6"
+        "reference": "402b905820e03dacda799594737749d5349f3487"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/spatie/statamic-responsive-images/zipball/d6dd048aba1e61a283a16992ead877b184a1f3a6",
-        "reference": "d6dd048aba1e61a283a16992ead877b184a1f3a6",
+        "url": "https://api.github.com/repos/spatie/statamic-responsive-images/zipball/402b905820e03dacda799594737749d5349f3487",
+        "reference": "402b905820e03dacda799594737749d5349f3487",
         "shasum": ""
       },
       "require": {
@@ -4694,22 +4694,22 @@
       "description": "Responsive Images for Statamic 3",
       "support": {
         "issues": "https://github.com/spatie/statamic-responsive-images/issues",
-        "source": "https://github.com/spatie/statamic-responsive-images/tree/v5.0.0"
+        "source": "https://github.com/spatie/statamic-responsive-images/tree/v5.0.1"
       },
-      "time": "2024-05-13T08:42:41+00:00"
+      "time": "2024-09-12T19:14:45+00:00"
     },
     {
       "name": "statamic/cms",
-      "version": "v5.24.0",
+      "version": "v5.30.0",
       "source": {
         "type": "git",
         "url": "https://github.com/statamic/cms.git",
-        "reference": "dd4ad041859660a80a96aa9c9145225463336986"
+        "reference": "d3f41a8c6c5a5e855c3f92a8942b303813373f98"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/statamic/cms/zipball/dd4ad041859660a80a96aa9c9145225463336986",
-        "reference": "dd4ad041859660a80a96aa9c9145225463336986",
+        "url": "https://api.github.com/repos/statamic/cms/zipball/d3f41a8c6c5a5e855c3f92a8942b303813373f98",
+        "reference": "d3f41a8c6c5a5e855c3f92a8942b303813373f98",
         "shasum": ""
       },
       "require": {
@@ -4792,7 +4792,7 @@
       ],
       "support": {
         "issues": "https://github.com/statamic/cms/issues",
-        "source": "https://github.com/statamic/cms/tree/v5.24.0"
+        "source": "https://github.com/statamic/cms/tree/v5.30.0"
       },
       "funding": [
         {
@@ -4800,7 +4800,7 @@
           "type": "github"
         }
       ],
-      "time": "2024-09-03T15:46:21+00:00"
+      "time": "2024-10-03T14:36:00+00:00"
     },
     {
       "name": "statamic/stringy",
