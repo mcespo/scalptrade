@@ -5,7 +5,12 @@
   </div>
   <ul role="list" class="divide-y divide-gray-200">
     {{ if {collection:count in="careers"} < 1 }}
-      <li class="px-4 py-4 sm:px-6">No available listings at this time.</li>
+      <li class="px-4 py-4 sm:px-6">
+        Thank you for your interest in joining our team! Currently, we do not have any open positions. However, if you have any questions or
+        would like more information, feel free to reach out to us at
+        <a class="font-medium text-emerald-700 underline" href="mailto:careers@scalptrade.com">careers@scalptrade.com</a>
+        .
+      </li>
     {{ else }}
       {{ collection:careers }}
         {{ partial:jobs-list-item }}
