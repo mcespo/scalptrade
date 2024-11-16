@@ -33,4 +33,3 @@ preferences:
   assets:
     assets:
       per_page: 500
-      mode: grid
