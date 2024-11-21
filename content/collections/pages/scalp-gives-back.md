@@ -4,7 +4,7 @@ blueprint: color_split_page
 title: 'SCALP Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1732166397
+updated_at: 1732166516
 content_image:
   src: covenant.jpg
 featured_hero_image:
@@ -17,20 +17,23 @@ split_content_repeater:
   -
     id: m3qv0zo5
     section_title: 'A totle'
+    image:
+      src: covenant-3.jpg
     section_content_a:
       -
         type: paragraph
         content:
           -
             type: text
-            text: content
+            text: 'content a'
     section_content_b:
       -
         type: paragraph
         content:
           -
             type: text
-            text: contnet
+            text: 'contnet b'
+    section_cta_link: www.google.com
     type: new_set
     enabled: true
 ---
