@@ -12,6 +12,12 @@ tabs:
               required: true
               validate:
                 - required
+          -
+            handle: featured_hero_image
+            field:
+              use_breakpoints: false
+              type: responsive
+              display: 'Featured Hero Image'
       -
         display: 'Content Area'
         fields:
