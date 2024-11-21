@@ -4,16 +4,15 @@ blueprint: page
 title: 'SCALP Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1725073197
+updated_at: 1732163808
 content_image:
   src: covenant.jpg
 featured_hero_image:
   src: covenant.jpg
-template: default
+template: color-split
 content_title: 'Covenant House'
 display_team_quotes: false
 enable_quote_loop: false
-parent: home
 ---
 {{ business:name }} is proud to support Covenant House Illinois (CHIL), a Chicago not-for-profit organization serving young people ages 18-24 experiencing the devastation of homelessness and housing instability.
 Since 2017, CHIL has reached nearly 2,000 young people in crisis, providing a comprehensive array of services – including interim shelter, education services and workforce development, clinical case-management, and a slate of wraparound support programming – to help youth permanently break the cycle of homelessness and achieve sustainable independence.
