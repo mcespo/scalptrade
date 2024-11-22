@@ -4,7 +4,7 @@ blueprint: color_split_page
 title: 'SCALP Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1732256062
+updated_at: 1732256266
 content_image:
   src: covenant.jpg
 featured_hero_image:
@@ -40,6 +40,55 @@ split_content_repeater:
     large_position_content_start: false
     text_color: '#ffffff'
     bg_color: '#1B511C'
+    section_content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'SCALP Trade proudly supports Covenant House Illinois (CHIL), a nonprofit in Chicago dedicated to helping young people ages 18-24 overcome homelessness and housing instability.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Since 2017, CHIL has served nearly 2,000 youth with vital services like shelter, education, workforce development, and clinical support, empowering them to achieve lasting independence.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'SCALP Trade’s support includes:'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Operating Support: Helping CHIL serve over 300 young people annually.'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Capital Support: Contributing to CHIL’s $12 million campaign to expand its campus, increasing shelter capacity and outreach to support more youth.'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Governance: SCALP Trade COO Joel Zawko has joined CHIL’s Board of Directors to support its mission.'
 ---
 {{ business:name }} is proud to support Covenant House Illinois (CHIL), a Chicago not-for-profit organization serving young people ages 18-24 experiencing the devastation of homelessness and housing instability.
 Since 2017, CHIL has reached nearly 2,000 young people in crisis, providing a comprehensive array of services – including interim shelter, education services and workforce development, clinical case-management, and a slate of wraparound support programming – to help youth permanently break the cycle of homelessness and achieve sustainable independence.
