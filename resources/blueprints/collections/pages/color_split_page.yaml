@@ -39,6 +39,11 @@ tabs:
                             type: text
                             display: 'Section Title'
                         -
+                          handle: large_position_content_start
+                          field:
+                            type: toggle
+                            display: 'Large Position Content Start'
+                        -
                           handle: section_image
                           field:
                             use_breakpoints: false
@@ -50,6 +55,17 @@ tabs:
                             remove_empty_nodes: false
                             type: bard
                             display: 'Section Content'
+                        -
+                          handle: text_color
+                          field:
+                            type: color
+                            display: 'Text Color'
+                        -
+                          handle: bg_color
+                          field:
+                            default: '#ffffff'
+                            type: color
+                            display: 'Background Color'
                         -
                           handle: section_cta_text
                           field:
