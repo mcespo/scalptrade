@@ -39,29 +39,17 @@ tabs:
                             type: text
                             display: 'Section Title'
                         -
-                          handle: image
+                          handle: section_image
                           field:
                             use_breakpoints: false
                             type: responsive
-                            display: 'Section Image A'
+                            display: 'Section Image'
                         -
-                          handle: section_content_a
+                          handle: section_content
                           field:
                             remove_empty_nodes: false
                             type: bard
-                            display: 'Section Content A'
-                        -
-                          handle: section_image_b
-                          field:
-                            use_breakpoints: false
-                            type: responsive
-                            display: 'Section Image B'
-                        -
-                          handle: section_content_b
-                          field:
-                            remove_empty_nodes: false
-                            type: bard
-                            display: 'Section Content B'
+                            display: 'Section Content'
                         -
                           handle: section_cta_text
                           field:
