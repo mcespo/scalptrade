@@ -4,7 +4,7 @@ blueprint: color_split_page
 title: 'SCALP Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1732256266
+updated_at: 1732256843
 content_image:
   src: covenant.jpg
 featured_hero_image:
@@ -16,7 +16,7 @@ enable_quote_loop: false
 split_content_repeater:
   -
     id: m3qv0zo5
-    section_title: 'A section title'
+    section_title: 'Covenant House'
     image:
       src: covenant-3.jpg
     section_content_a:
@@ -89,6 +89,37 @@ split_content_repeater:
                   -
                     type: text
                     text: 'Governance: SCALP Trade COO Joel Zawko has joined CHIL’s Board of Directors to support its mission.'
+  -
+    id: m3sct9xw
+    large_position_content_start: true
+    section_image:
+      src: covenant-2.jpg
+    section_content:
+      -
+        type: blockquote
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '“I’m excited to give back and support CHIL’s mission at this critical time, and I’m grateful for the opportunity to join this group of dedicated leaders in the fight to end youth homelessness.”'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: '-- Joel Zawko'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Please join us in partnering with this vital organization – to provide hope to young people in crisis and a practical path out of homelessness and toward a brighter future.'
+    bg_color: '#eeeeee'
+    section_cta_text: 'Donate to CHIL today'
+    section_cta_link: 'https://www.covenanthouseil.org/donate'
+    type: new_set
+    enabled: true
 ---
 {{ business:name }} is proud to support Covenant House Illinois (CHIL), a Chicago not-for-profit organization serving young people ages 18-24 experiencing the devastation of homelessness and housing instability.
 Since 2017, CHIL has reached nearly 2,000 young people in crisis, providing a comprehensive array of services – including interim shelter, education services and workforce development, clinical case-management, and a slate of wraparound support programming – to help youth permanently break the cycle of homelessness and achieve sustainable independence.
