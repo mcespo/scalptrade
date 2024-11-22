@@ -4,7 +4,7 @@ blueprint: color_split_page
 title: 'SCALP Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1732255735
+updated_at: 1732255968
 content_image:
   src: covenant.jpg
 featured_hero_image:
@@ -68,8 +68,6 @@ split_content_repeater:
                   -
                     type: text
                     text: 'Operating Support: Helping CHIL serve over 300 young people annually.'
-                  -
-                    type: hardBreak
           -
             type: listItem
             content:
@@ -79,8 +77,6 @@ split_content_repeater:
                   -
                     type: text
                     text: 'Capital Support: Contributing to CHIL’s $12 million campaign to expand its campus, increasing shelter capacity and outreach to support more youth.'
-                  -
-                    type: hardBreak
           -
             type: listItem
             content:
