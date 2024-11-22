@@ -4,7 +4,7 @@ blueprint: color_split_page
 title: 'SCALP Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1732255617
+updated_at: 1732255735
 content_image:
   src: covenant.jpg
 featured_hero_image:
@@ -43,7 +43,53 @@ split_content_repeater:
         content:
           -
             type: text
-            text: 'this is the content'
+            text: 'SCALP Trade proudly supports Covenant House Illinois (CHIL), a nonprofit in Chicago dedicated to helping young people ages 18-24 overcome homelessness and housing instability.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Since 2017, CHIL has served nearly 2,000 youth with vital services like shelter, education, workforce development, and clinical support, empowering them to achieve lasting independence.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'SCALP Trade’s support includes:'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Operating Support: Helping CHIL serve over 300 young people annually.'
+                  -
+                    type: hardBreak
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Capital Support: Contributing to CHIL’s $12 million campaign to expand its campus, increasing shelter capacity and outreach to support more youth.'
+                  -
+                    type: hardBreak
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Governance: SCALP Trade COO Joel Zawko has joined CHIL’s Board of Directors to support its mission.'
     large_position_content_start: false
     text_color: '#ffffff'
     bg_color: '#1B511C'
