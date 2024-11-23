@@ -4,7 +4,7 @@ blueprint: color_split_page
 title: 'SCALP Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1732332783
+updated_at: 1732332849
 content_image:
   src: covenant.jpg
 featured_hero_image:
@@ -147,6 +147,8 @@ split_content_repeater:
   -
     id: m3tm5331
     large_position_content_start: true
+    section_image:
+      src: 03ad996f-9149-4fc4-bb0e-42ac1268f770_2-large.jpeg
     section_content:
       -
         type: paragraph
