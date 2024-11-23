@@ -1,0 +1,48 @@
+{{ if section_title }}
+  <h2 class="mx-auto mt-2 text-balance text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
+    {{ section_title }}
+  </h2>
+{{ /if }}
+{{ if large_position_content_start == false }}
+  <div style="background-color: {{ bg_color }}" class="relative bg-white">
+    <div class="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
+      <div class="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
+        <div class="relative h-80 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">
+          {{ unless section_image:src == '' }}
+            {{ responsive:section_image class="absolute inset-0 size-full bg-gray-50 object-cover" }}
+          {{ /unless }}
+        </div>
+      </div>
+      <div class="px-6 lg:contents">
+        <div class="mx-auto max-w-2xl pb-24 pt-16 sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
+          <div style="color: {{ text_color }} !important" class="prose prose-base mt-10 max-w-xl lg:max-w-none">
+            {{ slot }}
+            {{ if section_cta_text }}button{{ /if }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ else }}
+  <div style="background-color: {{ bg_color }}; color: {{ text_color }}" class="relative bg-white">
+    <div class="mx-auto max-w-7xl lg:flex lg:justify-start">
+      <div class="lg:absolute lg:inset-y-0 lg:left-1/2 lg:flex lg:w-1/2 lg:shrink lg:grow-0">
+        <div class="relative h-80 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">
+          {{ unless section_image:src == '' }}
+            {{ responsive:section_image class="absolute inset-0 size-full bg-gray-50 object-cover" }}
+          {{ /unless }}
+        </div>
+      </div>
+      <div class="px-6 lg:contents">
+        <div
+          class="mx-auto max-w-2xl pb-24 pt-16 sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pr-8 lg:pt-32 xl:w-1/2"
+        >
+          <div style="color: {{ text_color }} !important" class="prose prose-base mt-10 max-w-xl lg:max-w-none">
+            {{ slot }}
+            {{ if section_cta_text }}button{{ /if }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ /if }}

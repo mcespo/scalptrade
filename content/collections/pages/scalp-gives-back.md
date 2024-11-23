@@ -4,7 +4,7 @@ blueprint: color_split_page
 title: 'SCALP Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1732256843
+updated_at: 1732331559
 content_image:
   src: covenant.jpg
 featured_hero_image:
@@ -117,7 +117,6 @@ split_content_repeater:
             text: 'Please join us in partnering with this vital organization – to provide hope to young people in crisis and a practical path out of homelessness and toward a brighter future.'
     bg_color: '#eeeeee'
     section_cta_text: 'Donate to CHIL today'
-    section_cta_link: 'https://www.covenanthouseil.org/donate'
     type: new_set
     enabled: true
 ---
