@@ -1,0 +1,98 @@
+title: 'Color Split Page'
+tabs:
+  header:
+    display: Header
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: featured_hero_image
+            field:
+              use_breakpoints: false
+              type: responsive
+              display: 'Featured Hero Image'
+      -
+        display: 'Content Area'
+        fields:
+          -
+            handle: split_content_repeater
+            field:
+              type: replicator
+              display: 'Split Content Repeater'
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  sets:
+                    new_set:
+                      display: 'New Set'
+                      fields:
+                        -
+                          handle: section_title
+                          field:
+                            type: text
+                            display: 'Section Title'
+                        -
+                          handle: large_position_content_start
+                          field:
+                            type: toggle
+                            display: 'Large Position Content Start'
+                        -
+                          handle: section_image
+                          field:
+                            use_breakpoints: false
+                            type: responsive
+                            display: 'Section Image'
+                        -
+                          handle: section_content
+                          field:
+                            remove_empty_nodes: false
+                            type: bard
+                            display: 'Section Content'
+                        -
+                          handle: text_color
+                          field:
+                            type: color
+                            display: 'Text Color'
+                        -
+                          handle: bg_color
+                          field:
+                            default: '#ffffff'
+                            type: color
+                            display: 'Background Color'
+                        -
+                          handle: section_cta_text
+                          field:
+                            type: text
+                            display: 'Section CTA Text'
+                        -
+                          handle: section_cta_link
+                          field:
+                            type: link
+                            display: 'Section CTA Link'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true

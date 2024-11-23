@@ -1,19 +1,167 @@
 ---
 id: 82741161-bc00-4670-89cb-3fe86600e7ad
-blueprint: page
+blueprint: color_split_page
 title: 'SCALP Gives Back'
 author: bebd7e43-446f-4387-a853-3c3100b5110c
 updated_by: bebd7e43-446f-4387-a853-3c3100b5110c
-updated_at: 1725073197
+updated_at: 1732332849
 content_image:
   src: covenant.jpg
 featured_hero_image:
   src: covenant.jpg
-template: default
+template: color-split
 content_title: 'Covenant House'
 display_team_quotes: false
 enable_quote_loop: false
-parent: home
+split_content_repeater:
+  -
+    id: m3qv0zo5
+    section_title: 'Covenant House'
+    image:
+      src: covenant-3.jpg
+    section_content_a:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'content a'
+    section_content_b:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'contnet b'
+    type: new_set
+    enabled: true
+    section_image:
+      src: covenant-3.jpg
+    large_position_content_start: false
+    text_color: '#ffffff'
+    bg_color: '#1B511C'
+    section_content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'SCALP Trade proudly supports Covenant House Illinois (CHIL), a nonprofit in Chicago dedicated to helping young people ages 18-24 overcome homelessness and housing instability.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Since 2017, CHIL has served nearly 2,000 youth with vital services like shelter, education, workforce development, and clinical support, empowering them to achieve lasting independence.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'SCALP Trade’s support includes:'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Operating Support: Helping CHIL serve over 300 young people annually.'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Capital Support: Contributing to CHIL’s $12 million campaign to expand its campus, increasing shelter capacity and outreach to support more youth.'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Governance: SCALP Trade COO Joel Zawko has joined CHIL’s Board of Directors to support its mission.'
+  -
+    id: m3sct9xw
+    large_position_content_start: true
+    section_image:
+      src: covenant-2.jpg
+    section_content:
+      -
+        type: blockquote
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '“I’m excited to give back and support CHIL’s mission at this critical time, and I’m grateful for the opportunity to join this group of dedicated leaders in the fight to end youth homelessness.”'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: '-- Joel Zawko'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Please join us in partnering with this vital organization – to provide hope to young people in crisis and a practical path out of homelessness and toward a brighter future.'
+    bg_color: '#eeeeee'
+    section_cta_text: 'Donate to CHIL today'
+    type: new_set
+    enabled: true
+    text_color: '#000000'
+    section_cta_link: 'https://www.covenanthouseil.org/donate'
+  -
+    id: m3tm2ux2
+    section_title: 'Connor Hunt Memorial Foundation'
+    large_position_content_start: false
+    section_image:
+      src: img-7071-3-large.jpeg
+    section_content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'At SCALP Trade, we are dedicated to making a difference in the fight against pediatric cancer. Our commitment to this vital cause was inspired by the courageous journey of Connor Hunt, who, since his diagnosis in 2012 with stage 4 Alveolar Rhabdomyosarcoma, exemplified incredible strength and grace. Despite his challenging battle with this rare and aggressive cancer, Connor’s spirit and resilience left a lasting impact on everyone who knew him.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'In 2020, we joined the fight in supporting The Connor Hunt Memorial Foundation.The Connor Hunt Memorial Foundation was established to fund crucial pediatric cancer research at Ann & Robert H. Lurie Children’s Hospital in Chicago. This research is vital, as it offers hope and improved treatment options for children battling cancer, not only in Chicago but around the globe. For some, these clinical trials represent a critical lifeline.'
+    text_color: '#ffffff'
+    bg_color: '#1B511C'
+    type: new_set
+    enabled: true
+  -
+    id: m3tm5331
+    large_position_content_start: true
+    section_image:
+      src: 03ad996f-9149-4fc4-bb0e-42ac1268f770_2-large.jpeg
+    section_content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Join us in supporting this worthy cause. Together, we can continue to honor Connor’s legacy and advance the mission of the Connor Hunt Memorial Foundation, bringing hope and progress to children and families facing this formidable challenge.'
+    text_color: '#000000'
+    bg_color: '#eeeeee'
+    section_cta_text: 'Donate to CHMF'
+    section_cta_link: 'https://conmanstrong.com/make-a-donation/'
+    type: new_set
+    enabled: true
 ---
 {{ business:name }} is proud to support Covenant House Illinois (CHIL), a Chicago not-for-profit organization serving young people ages 18-24 experiencing the devastation of homelessness and housing instability.
 Since 2017, CHIL has reached nearly 2,000 young people in crisis, providing a comprehensive array of services – including interim shelter, education services and workforce development, clinical case-management, and a slate of wraparound support programming – to help youth permanently break the cycle of homelessness and achieve sustainable independence.
