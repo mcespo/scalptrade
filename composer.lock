@@ -4701,16 +4701,16 @@
     },
     {
       "name": "statamic/cms",
-      "version": "v5.39.0",
+      "version": "v5.40.0",
       "source": {
         "type": "git",
         "url": "https://github.com/statamic/cms.git",
-        "reference": "f52ea08f4426b4856953eae977484b3e13cc66ff"
+        "reference": "2cb135cf7a09af927b12b15ce3538bdc99622438"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/statamic/cms/zipball/f52ea08f4426b4856953eae977484b3e13cc66ff",
-        "reference": "f52ea08f4426b4856953eae977484b3e13cc66ff",
+        "url": "https://api.github.com/repos/statamic/cms/zipball/2cb135cf7a09af927b12b15ce3538bdc99622438",
+        "reference": "2cb135cf7a09af927b12b15ce3538bdc99622438",
         "shasum": ""
       },
       "require": {
@@ -4753,6 +4753,14 @@
       },
       "type": "library",
       "extra": {
+        "laravel": {
+          "aliases": {
+            "Statamic": "Statamic\\Statamic"
+          },
+          "providers": [
+            "Statamic\\Providers\\StatamicServiceProvider"
+          ]
+        },
         "download-dist": [
           {
             "url": "https://github.com/statamic/cms/releases/download/{$version}/dist.tar.gz",
@@ -4762,15 +4770,7 @@
             "url": "https://github.com/statamic/cms/releases/download/{$version}/dist-frontend.tar.gz",
             "path": "resources/dist-frontend"
           }
-        ],
-        "laravel": {
-          "providers": [
-            "Statamic\\Providers\\StatamicServiceProvider"
-          ],
-          "aliases": {
-            "Statamic": "Statamic\\Statamic"
-          }
-        }
+        ]
       },
       "autoload": {
         "files": [
@@ -4795,7 +4795,7 @@
       ],
       "support": {
         "issues": "https://github.com/statamic/cms/issues",
-        "source": "https://github.com/statamic/cms/tree/v5.39.0"
+        "source": "https://github.com/statamic/cms/tree/v5.40.0"
       },
       "funding": [
         {
@@ -4803,7 +4803,7 @@
           "type": "github"
         }
       ],
-      "time": "2024-11-22T20:36:04+00:00"
+      "time": "2024-11-26T22:16:39+00:00"
     },
     {
       "name": "statamic/stringy",
