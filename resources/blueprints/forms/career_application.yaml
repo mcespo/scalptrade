@@ -1,12 +1,23 @@
+title: 'Career Application'
+honeypot: scalpy-honeypot
+email:
+  - id: lqq4s0dw
+    to: careers@scalptrade.com
+    subject: 'New {{ role }} submission from {{ first_name }} {{ last_name }}'
+    attachments: true
+    mailer: smtp
+  - id: gdOvhxU6
+    to: '{{ email }}'
+    subject: 'Applied to SCALP Trade {{ role }} role'
+    markdown: true
+    text: job-submission
 tabs:
   main:
     display: Main
     sections:
-      -
-        display: Details
+      - display: Details
         fields:
-          -
-            handle: role
+          - handle: role
             field:
               antlers: true
               type: text
@@ -16,8 +27,7 @@ tabs:
               replicator_preview: false
               duplicate: false
               always_save: true
-          -
-            handle: upload_resume
+          - handle: upload_resume
             field:
               max_files: 1
               container: assets
@@ -28,24 +38,21 @@ tabs:
               validate:
                 - required
               folder: resume-submissions
-          -
-            handle: first_name
+          - handle: first_name
             field:
               type: text
               display: 'First Name'
               validate:
                 - required
               placeholder: 'First Name'
-          -
-            handle: last_name
+          - handle: last_name
             field:
               type: text
               display: 'Last Name'
               validate:
                 - required
               placeholder: 'Last Name'
-          -
-            handle: email
+          - handle: email
             field:
               input_type: email
               type: text
@@ -54,8 +61,7 @@ tabs:
                 - required
                 - email
               placeholder: careers@scalptrade.com
-          -
-            handle: phone
+          - handle: phone
             field:
               input_type: tel
               character_limit: 20
@@ -63,83 +69,69 @@ tabs:
               display: 'Phone number'
               validate:
                 - required
-          -
-            handle: linkedin_url
+          - handle: linkedin_url
             field:
               input_type: url
               type: text
               display: 'LinkedIn URL'
               placeholder: 'https://www.linkedin.com/in/...com'
-          -
-            handle: portfolio_url
+          - handle: portfolio_url
             field:
               input_type: url
               type: text
               display: 'Portfolio URL (If applicable)'
               placeholder: 'https://url...com'
-          -
-            handle: github_url
+          - handle: github_url
             field:
               input_type: url
               type: text
               display: 'GitHub URL (if applicable)'
               placeholder: 'https://github...com'
-          -
-            handle: other_url
+          - handle: other_url
             field:
               input_type: url
               type: text
               display: 'Other URL (if applicable)'
               placeholder: 'https://url...com'
-          -
-            handle: university
+          - handle: university
             field:
               type: text
               display: 'University attended'
               placeholder: 'University of ...'
               validate:
                 - required
-          -
-            handle: major
+          - handle: major
             field:
               type: text
               display: 'University major'
               placeholder: 'Science, Arts, Humanities...'
               validate:
                 - required
-          -
-            handle: highest_education
+          - handle: highest_education
             field:
               options:
-                -
-                  key: 'High School Diploma'
+                - key: 'High School Diploma'
                   value: null
-                -
-                  key: "Associate's"
+                - key: "Associate's"
                   value: null
-                -
-                  key: "Bachelor's"
+                - key: "Bachelor's"
                   value: null
-                -
-                  key: "Master's"
+                - key: "Master's"
                   value: null
-                -
-                  key: Doctorate
+                - key: Doctorate
                   value: null
               type: select
               display: 'Highest level of education or current level of education pursuing'
               validate:
                 - required
-          -
-            handle: graduation_date
+          - handle: graduation_date
             field:
               input_type: date
               type: text
               display: 'Graduation Date'
               validate:
                 - required
-          -
-            handle: applied_to_scalp_before
+          - handle: applied_to_scalp_before
             field:
               options:
                 'No': null
@@ -149,47 +141,35 @@ tabs:
               display: 'Have you applied for a position at SCALP Trade in the past?'
               validate:
                 - required
-          -
-            handle: how_did_you_hear_about_job
+          - handle: how_did_you_hear_about_job
             field:
               options:
-                -
-                  key: Website
+                - key: Website
                   value: null
-                -
-                  key: 'Career Fair'
+                - key: 'Career Fair'
                   value: null
-                -
-                  key: LinkedIn
+                - key: LinkedIn
                   value: null
-                -
-                  key: Glassdoor
+                - key: Glassdoor
                   value: null
-                -
-                  key: Handshake
+                - key: Handshake
                   value: null
-                -
-                  key: 'University Job Board'
+                - key: 'University Job Board'
                   value: null
-                -
-                  key: 'Current or Former employee (see below)'
+                - key: 'Current or Former employee (see below)'
                   value: null
-                -
-                  key: 'Other (see below)'
+                - key: 'Other (see below)'
                   value: null
               type: select
               display: 'How did you hear about this job?'
-          -
-            handle: other_or_employee_details
+          - handle: other_or_employee_details
             field:
               type: text
               display: 'If seleced "Other" or "Employee" to the above question, please provide those details or employee name.'
               instructions: "If you selected ‘Other’, or 'Employee' to the question: 'How did you hear about this job?' Please enter name or details."
-      -
-        display: Authorization
+      - display: Authorization
         fields:
-          -
-            handle: allowed_to_work_in_usa
+          - handle: allowed_to_work_in_usa
             field:
               options:
                 'No': null
@@ -199,8 +179,7 @@ tabs:
               display: 'Currently, are you legally authorized to work for any employer in the United States of America?'
               validate:
                 - required
-          -
-            handle: require_visa_sponsorship
+          - handle: require_visa_sponsorship
             field:
               options:
                 'No': null
@@ -210,8 +189,7 @@ tabs:
               display: 'Will you now or in the future require visa sponsorship to continue working in the United States of America?'
               validate:
                 - required
-          -
-            handle: visa_status
+          - handle: visa_status
             field:
               options:
                 'N/A ': null
@@ -232,24 +210,20 @@ tabs:
               display: 'If you answered “Yes” to the question above: What is your current immigration status/basis of your work authorization? (Please select N/A if you do not require work authorization)'
               validate:
                 - required
-          -
-            handle: authorization_expiration
+          - handle: authorization_expiration
             field:
               input_type: date
               type: text
               display: 'If you have a current work authorization/status, when does it expire? (Please leave blank if you do not require work authorization)'
-          -
-            handle: sponsorhip_needs_details
+          - handle: sponsorhip_needs_details
             field:
               type: text
               display: 'Please provide additional details about your sponsorship needs, current work authorization status, or eligibility for a work authorization status. (Please enter N/A if you do not require work authorization)'
               validate:
                 - required
-      -
-        display: Submit
+      - display: Submit
         fields:
-          -
-            handle: all_information_correct
+          - handle: all_information_correct
             field:
               options:
                 'No': null
