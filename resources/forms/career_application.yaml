@@ -14,5 +14,4 @@ email:
     subject: 'Applied to SCALP Trade {{ role }} role'
     text: job-submission
     from: noreply@scalptrade.com
-    attachments: true
     mailer: smtp
