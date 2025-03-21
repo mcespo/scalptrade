@@ -4651,16 +4651,16 @@
     },
     {
       "name": "spatie/statamic-responsive-images",
-      "version": "v5.2.1",
+      "version": "v5.2.2",
       "source": {
         "type": "git",
         "url": "https://github.com/spatie/statamic-responsive-images.git",
-        "reference": "58c38a1977da60cd8eae54b47ad17437c70c6569"
+        "reference": "75ba3a5b4dbfc338eea25aa855cc3fdfb99e2e8a"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/spatie/statamic-responsive-images/zipball/58c38a1977da60cd8eae54b47ad17437c70c6569",
-        "reference": "58c38a1977da60cd8eae54b47ad17437c70c6569",
+        "url": "https://api.github.com/repos/spatie/statamic-responsive-images/zipball/75ba3a5b4dbfc338eea25aa855cc3fdfb99e2e8a",
+        "reference": "75ba3a5b4dbfc338eea25aa855cc3fdfb99e2e8a",
         "shasum": ""
       },
       "require": {
@@ -4673,14 +4673,14 @@
       },
       "type": "statamic-addon",
       "extra": {
-        "statamic": {
-          "name": "Responsive Images",
-          "description": "Responsive Images for Statamic"
-        },
         "laravel": {
           "providers": [
             "Spatie\\ResponsiveImages\\ServiceProvider"
           ]
+        },
+        "statamic": {
+          "name": "Responsive Images",
+          "description": "Responsive Images for Statamic"
         }
       },
       "autoload": {
@@ -4695,22 +4695,22 @@
       "description": "Responsive Images for Statamic",
       "support": {
         "issues": "https://github.com/spatie/statamic-responsive-images/issues",
-        "source": "https://github.com/spatie/statamic-responsive-images/tree/v5.2.1"
+        "source": "https://github.com/spatie/statamic-responsive-images/tree/v5.2.2"
       },
-      "time": "2024-10-30T19:44:43+00:00"
+      "time": "2025-02-11T20:19:37+00:00"
     },
     {
       "name": "statamic/cms",
-      "version": "v5.39.0",
+      "version": "v5.40.0",
       "source": {
         "type": "git",
         "url": "https://github.com/statamic/cms.git",
-        "reference": "f52ea08f4426b4856953eae977484b3e13cc66ff"
+        "reference": "2cb135cf7a09af927b12b15ce3538bdc99622438"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/statamic/cms/zipball/f52ea08f4426b4856953eae977484b3e13cc66ff",
-        "reference": "f52ea08f4426b4856953eae977484b3e13cc66ff",
+        "url": "https://api.github.com/repos/statamic/cms/zipball/2cb135cf7a09af927b12b15ce3538bdc99622438",
+        "reference": "2cb135cf7a09af927b12b15ce3538bdc99622438",
         "shasum": ""
       },
       "require": {
@@ -4753,6 +4753,14 @@
       },
       "type": "library",
       "extra": {
+        "laravel": {
+          "aliases": {
+            "Statamic": "Statamic\\Statamic"
+          },
+          "providers": [
+            "Statamic\\Providers\\StatamicServiceProvider"
+          ]
+        },
         "download-dist": [
           {
             "url": "https://github.com/statamic/cms/releases/download/{$version}/dist.tar.gz",
@@ -4762,15 +4770,7 @@
             "url": "https://github.com/statamic/cms/releases/download/{$version}/dist-frontend.tar.gz",
             "path": "resources/dist-frontend"
           }
-        ],
-        "laravel": {
-          "providers": [
-            "Statamic\\Providers\\StatamicServiceProvider"
-          ],
-          "aliases": {
-            "Statamic": "Statamic\\Statamic"
-          }
-        }
+        ]
       },
       "autoload": {
         "files": [
@@ -4795,7 +4795,7 @@
       ],
       "support": {
         "issues": "https://github.com/statamic/cms/issues",
-        "source": "https://github.com/statamic/cms/tree/v5.39.0"
+        "source": "https://github.com/statamic/cms/tree/v5.40.0"
       },
       "funding": [
         {
@@ -4803,7 +4803,7 @@
           "type": "github"
         }
       ],
-      "time": "2024-11-22T20:36:04+00:00"
+      "time": "2024-11-26T22:16:39+00:00"
     },
     {
       "name": "statamic/stringy",
