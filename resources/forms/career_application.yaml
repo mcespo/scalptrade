@@ -15,3 +15,4 @@ email:
     markdown: true
     text: job-submission
     from: noreply@scalptrade.com
+    mailer: smtp
