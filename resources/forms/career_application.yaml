@@ -7,9 +7,11 @@ email:
     subject: 'New {{ role }} submission from {{ first_name }} {{ last_name }}'
     attachments: true
     mailer: smtp
+    from: noreply@scalptrade.com
   -
     id: gdOvhxU6
     to: '{{ email }}'
     subject: 'Applied to SCALP Trade {{ role }} role'
     markdown: true
     text: job-submission
+    from: noreply@scalptrade.com
