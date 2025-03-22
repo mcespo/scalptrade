@@ -3,273 +3,118 @@ tabs:
   main:
     display: Main
     sections:
-      - fields:
-          - handle: featured_hero_image
+      -
+        fields:
+          -
+            handle: featured_hero_image
             field:
               use_breakpoints: false
               allow_ratio: false
-              allow_fit: true
-              breakpoints:
-                - sm
-                - md
-                - lg
-                - xl
-                - 2xl
-              restrict: false
-              allow_uploads: true
               display: 'Featured Hero Image'
               type: responsive
-              listable: hidden
-              instructions_position: above
-              visibility: visible
               always_save: false
               duplicate: false
-          - handle: title
+          -
+            handle: title
             field:
               type: text
               required: true
               validate:
                 - required
               display: Role
-              instructions_position: above
-              listable: hidden
-              visibility: visible
               always_save: false
-              input_type: text
-              antlers: false
-          - handle: job_type
+          -
+            handle: job_type
             field:
               options:
                 Full-time: null
                 Part-time: null
                 Contract: null
-              multiple: false
-              clearable: false
-              searchable: true
-              taggable: false
-              push_tags: false
-              cast_booleans: false
               display: 'Job Type'
               type: select
-              listable: hidden
-              instructions_position: above
-              visibility: visible
               always_save: false
-          - handle: location
+          -
+            handle: location
             field:
-              input_type: text
-              antlers: false
               display: Location
               type: text
-              listable: hidden
-              instructions_position: above
-              visibility: visible
               always_save: false
-          - handle: department
+          -
+            handle: department
             field:
               options:
                 Engineering: null
                 Trade: null
-              multiple: false
-              clearable: false
-              searchable: true
               taggable: true
-              push_tags: false
-              cast_booleans: false
               display: Department
               type: select
-              listable: hidden
-              instructions_position: above
-              visibility: visible
               always_save: false
-              hide_display: false
-          - handle: overview
+          -
+            handle: compensation
+            field:
+              type: text
+              display: Compensation
+              sortable: false
+          -
+            handle: overview
             field:
               type: markdown
               localizable: true
               display: Overview
-              instructions_position: above
-              listable: hidden
-              visibility: visible
               always_save: false
-              restrict: false
-              automatic_line_breaks: true
-              automatic_links: false
-              escape_markup: false
-              smartypants: false
-              antlers: false
-              replicator_preview: true
-              buttons:
-                - bold
-                - italic
-                - unorderedlist
-                - orderedlist
-                - quote
-                - link
-                - image
-                - table
-              heading_anchors: false
-              table_of_contents: false
-              hide_display: false
-          - handle: key_responsibilities
+          -
+            handle: key_responsibilities
             field:
-              restrict: false
-              automatic_line_breaks: true
-              automatic_links: false
-              escape_markup: false
-              smartypants: false
-              antlers: false
               display: 'Key Responsibilities'
               type: markdown
-              listable: hidden
-              instructions_position: above
-              visibility: visible
               always_save: false
               default: 'The {{ business:name }} team is built on the foundation of collaboration, diversity and innovation. We value critical thinkers, who are adapt at deep problem solving, and can endure a fast paced environment. We embrace individuals with grit, self-motivation, and those with the desire to experience and tackle the most difficult obstacles.'
-              hide_display: false
-              replicator_preview: true
-              buttons:
-                - bold
-                - italic
-                - unorderedlist
-                - orderedlist
-                - quote
-                - link
-                - image
-                - table
-              heading_anchors: false
-              table_of_contents: false
-          - handle: required_skills_and_qualifications
+          -
+            handle: required_skills_and_qualifications
             field:
-              restrict: false
-              automatic_line_breaks: true
-              automatic_links: false
-              escape_markup: false
-              smartypants: false
-              antlers: false
               display: 'Required Skills and Qualifications'
               type: markdown
-              listable: hidden
-              instructions_position: above
-              visibility: visible
               always_save: false
-              replicator_preview: true
-              buttons:
-                - bold
-                - italic
-                - unorderedlist
-                - orderedlist
-                - quote
-                - link
-                - image
-                - table
-              heading_anchors: false
-              table_of_contents: false
-              hide_display: false
-          - handle: preferred_skills
+          -
+            handle: preferred_skills
             field:
-              restrict: false
-              automatic_line_breaks: true
-              automatic_links: false
-              escape_markup: false
-              smartypants: false
-              antlers: false
               display: 'Preferred Skills'
               type: markdown
-              listable: hidden
-              instructions_position: above
-              visibility: visible
               always_save: false
-              replicator_preview: true
-              buttons:
-                - bold
-                - italic
-                - unorderedlist
-                - orderedlist
-                - quote
-                - link
-                - image
-                - table
-              heading_anchors: false
-              table_of_contents: false
-              hide_display: false
-          - handle: personal_attributes
+          -
+            handle: personal_attributes
             field:
-              restrict: false
-              automatic_line_breaks: true
-              automatic_links: false
-              escape_markup: false
-              smartypants: false
-              antlers: false
               display: 'Personal Attributes'
               type: markdown
-              listable: hidden
-              instructions_position: above
-              visibility: visible
               always_save: false
-              hide_display: false
-              replicator_preview: true
-              buttons:
-                - bold
-                - italic
-                - unorderedlist
-                - orderedlist
-                - quote
-                - link
-                - image
-                - table
-              heading_anchors: false
-              table_of_contents: false
-          - handle: application_process
+          -
+            handle: application_process
             field:
-              restrict: false
-              automatic_line_breaks: true
-              automatic_links: false
-              escape_markup: false
-              smartypants: false
-              antlers: false
               display: 'Application Process'
               type: markdown
-              listable: hidden
-              instructions_position: above
-              visibility: visible
               always_save: false
-              hide_display: false
-              replicator_preview: true
-              buttons:
-                - bold
-                - italic
-                - unorderedlist
-                - orderedlist
-                - quote
-                - link
-                - image
-                - table
-              heading_anchors: false
-              table_of_contents: false
   sidebar:
     display: Sidebar
     sections:
-      - fields:
-          - handle: slug
+      -
+        fields:
+          -
+            handle: slug
             field:
               type: slug
               localizable: true
               validate: 'max:200'
-          - handle: date
+          -
+            handle: date
             field:
               type: date
               required: true
               default: now
               validate:
                 - required
-          - handle: template_field
+          -
+            handle: template_field
             field:
-              hide_partials: true
-              blueprint: false
               display: 'Template Field'
               type: template
-              listable: hidden
-              instructions_position: above
-              visibility: visible
               always_save: false
