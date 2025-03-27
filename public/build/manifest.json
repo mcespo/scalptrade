@@ -1,6 +1,6 @@
 {
   "resources/css/site.css": {
-    "file": "assets/site-MD8UBYC_.css",
+    "file": "assets/site-OvpiVndM.css",
     "src": "resources/css/site.css",
     "isEntry": true
   },
@@ -11,14 +11,6 @@
   "resources/fonts/oswald-v49-latin-700.woff2": {
     "file": "assets/oswald-v49-latin-700-CdAnKZ7G.woff2",
     "src": "resources/fonts/oswald-v49-latin-700.woff2"
-  },
-  "resources/fonts/source-serif-pro-v15-latin-200.woff": {
-    "file": "assets/source-serif-pro-v15-latin-200-wEpmmHu3.woff",
-    "src": "resources/fonts/source-serif-pro-v15-latin-200.woff"
-  },
-  "resources/fonts/source-serif-pro-v15-latin-200.woff2": {
-    "file": "assets/source-serif-pro-v15-latin-200-CriDiU5j.woff2",
-    "src": "resources/fonts/source-serif-pro-v15-latin-200.woff2"
   },
   "resources/fonts/source-serif-pro-v15-latin-700.woff": {
     "file": "assets/source-serif-pro-v15-latin-700-DBIktdf8.woff",
