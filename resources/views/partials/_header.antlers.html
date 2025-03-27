@@ -4,7 +4,7 @@
       {{ unless featured_hero_image:src == '' }}
         {{ responsive:featured_hero_image quality:webp="50" md:quality:webp="60" lg:quality:webp="70" class="h-full
       w-full
-      object-cover aspect-[2600/1733]" loading="eager" fetchpriority="high" }}
+      object-cover" loading="eager" fetchpriority="high" }}
       {{ /unless }}
       <div class="absolute inset-0 bg-gray-600 mix-blend-multiply" aria-hidden="true"></div>
     </div>

@@ -1,9 +1,9 @@
 <div class="relative max-w-prose md:max-w-none">
   <figure>
     {{ unless content_image:src == '' }}
-    {{ responsive:content_image quality:webp="50" md:quality:webp="75" lg:quality:webp="100" class="rounded-lg
+      {{ responsive:content_image loading="lazy" quality:webp="50" md:quality:webp="60" lg:quality:webp="70" class="rounded-lg
     aspect-video max-h-[35rem] object-cover object-center
     shadow-lg" }}
-    {{ /unless}}
+    {{ /unless }}
   </figure>
 </div>
