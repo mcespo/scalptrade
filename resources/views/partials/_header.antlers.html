@@ -2,17 +2,24 @@
   <div class="relative h-[250px] bg-gray-800 pb-32 md:h-[300px] lg:h-[350px]">
     <div class="absolute inset-0 h-[250px] md:h-[300px] lg:h-[350px]">
       {{ unless featured_hero_image:src == '' }}
-      {{ responsive:featured_hero_image quality:webp="50" md:quality:webp="75" lg:quality:webp="100" class="h-full
+        {{ responsive:featured_hero_image quality:webp="50" md:quality:webp="60" lg:quality:webp="70" class="h-full
       w-full
-      object-cover" }}
+      object-cover aspect-[2600/1733]" loading="eager" fetchpriority="high" }}
       {{ /unless }}
       <div class="absolute inset-0 bg-gray-600 mix-blend-multiply" aria-hidden="true"></div>
     </div>
-    <div class="relative uppercase mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8" x-data="{ visible: false }"
-      x-intersect.once="visible = true">
-      <h1 x-show="visible" x-transition:enter="transition ease-out duration-300 delay-200"
-        x-transition:enter-start="opacity-0 translate-y-10" x-transition:enter-end="opacity-100 translate-y-0"
-        class="font-display text-4xl tracking-tight text-white md:text-5xl lg:text-6xl">
+    <div
+      class="relative mx-auto max-w-7xl px-6 py-24 uppercase sm:py-32 lg:px-8"
+      x-data="{ visible: false }"
+      x-intersect.once="visible = true"
+    >
+      <h1
+        x-show="visible"
+        x-transition:enter="transition ease-out duration-300 delay-200"
+        x-transition:enter-start="opacity-0 translate-y-10"
+        x-transition:enter-end="opacity-100 translate-y-0"
+        class="font-display text-4xl tracking-tight text-white md:text-5xl lg:text-6xl"
+      >
         {{ title }}
       </h1>
     </div>

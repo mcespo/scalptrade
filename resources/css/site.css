@@ -16,16 +16,6 @@
   font-display: swap;
   font-family: "Source Serif Pro";
   font-style: normal;
-  font-weight: 200;
-  src:
-    url("../fonts/source-serif-pro-v15-latin-200.woff2") format("woff2"),
-    url("../fonts/source-serif-pro-v15-latin-200.woff") format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Source Serif Pro";
-  font-style: normal;
   font-weight: 400;
   src:
     url("../fonts/source-serif-pro-v15-latin-regular.woff2") format("woff2"),
