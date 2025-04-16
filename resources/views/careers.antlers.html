@@ -1,8 +1,12 @@
 {{ partial:header }}
 <div x-data="{ visible: false }" x-intersect.once="visible = true" class="overflow-hidden bg-white">
-  <div x-show="visible" x-transition:enter="transition ease-out duration-300 delay-200"
-    x-transition:enter-start="opacity-0 -translate-y-10" x-transition:enter-end="opacity-100 translate-x-0"
-    class="relative mx-auto max-w-7xl px-6 py-16 lg:px-8">
+  <div
+    x-show="visible"
+    x-transition:enter="transition ease-out duration-300 delay-200"
+    x-transition:enter-start="opacity-0 -translate-y-10"
+    x-transition:enter-end="opacity-100 translate-x-0"
+    class="relative mx-auto max-w-7xl px-6 py-16 lg:px-8"
+  >
     <div class="max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
       <h2 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
         {{ content_title }}
@@ -13,18 +17,17 @@
         {{ partial:svg-grid-pattern }}
         {{ partial:content-image }}
       </div>
-      <div class="mt-8 lg:mt-0 z-10">
-        <div
-          class="prose prose-xl prose-emerald z-10 mx-auto mb-12 mt-5 text-gray-600 lg:col-start-1 lg:row-start-1 lg:max-w-none">
+      <div class="z-10 mt-8 lg:mt-0">
+        <div class="prose prose-xl prose-emerald z-10 mx-auto mb-12 mt-5 text-gray-600 lg:col-start-1 lg:row-start-1 lg:max-w-none">
           {{ content }}
         </div>
       </div>
       {{ if display_jobs_list }}
-      {{ partial:jobs-list }}
+        {{ partial:jobs-list }}
       {{ /if }}
     </div>
   </div>
   {{ if display_team_quotes }}
-  {{ partial:quotes }}
+    {{ partial:quotes }}
   {{ /if }}
 </div>
