@@ -24,6 +24,7 @@ In order to ensure that the Statamic community is welcoming to all and generally
 
 ## Important Links
 
+
 - [Statamic Main Site](https://statamic.com)
 - [Statamic 3 Documentation][docs]
 - [Statamic 3 Core Package Repo][cms-repo]
