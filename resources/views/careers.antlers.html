@@ -39,7 +39,9 @@
     ></recruitment-current-openings>
     <!-- End of job widgets code -->
   </div>
-  {{ if display_team_quotes }}
-    {{ partial:quotes }}
-  {{ /if }}
+  {{#
+    {{ if display_team_quotes }}
+      {{ partial:quotes }}
+    {{ /if }}
+  #}}
 </div>
