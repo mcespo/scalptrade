@@ -1,4 +1,6 @@
 {{ partial:header }}
+<script src="https://workforcenow.adp.com/mascsr/default/mdf/recwebcomponents/recruitment/main-config/recruitment.js"></script>
+
 <div x-data="{ visible: false }" x-intersect.once="visible = true" class="overflow-hidden bg-white">
   <div
     x-show="visible"
@@ -22,10 +24,20 @@
           {{ content }}
         </div>
       </div>
-      {{ if display_jobs_list }}
-        {{ partial:jobs-list }}
-      {{ /if }}
+      {{#
+        {{ if display_jobs_list }}
+          {{ partial:jobs-list }}
+        {{ /if }}
+      #}}
     </div>
+    <!-- Start of job widgets code. DO NOT DELETE -->
+    <recruitment-current-openings
+      cid="3cde9278-c1e3-4e86-abb6-c4ecec3390c1"
+      ccid="9201413187650_3"
+      host="DP"
+      locale="en_US"
+    ></recruitment-current-openings>
+    <!-- End of job widgets code -->
   </div>
   {{ if display_team_quotes }}
     {{ partial:quotes }}
