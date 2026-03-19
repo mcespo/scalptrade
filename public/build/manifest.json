@@ -1,7 +1,7 @@
 {
-  "resources/css/site.css": {
-    "file": "assets/site-BdOFofXP.css",
-    "src": "resources/css/site.css",
+  "resources/css/tailwind.css": {
+    "file": "assets/tailwind-CnXYvNx3.css",
+    "src": "resources/css/tailwind.css",
     "isEntry": true
   },
   "resources/fonts/oswald-v49-latin-700.woff": {
@@ -37,7 +37,7 @@
     "src": "resources/fonts/source-serif-pro-v15-latin-regular.woff2"
   },
   "resources/js/site.js": {
-    "file": "assets/site-B-i1bRw_.js",
+    "file": "assets/site-2vgCDiiM.js",
     "name": "site",
     "src": "resources/js/site.js",
     "isEntry": true

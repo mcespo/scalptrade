@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "./site.css";
+
+@source "../**/*.antlers.html";
+@source "../**/*.blade.php";
+@source "../**/*.vue";
+@source "../../content/**/*.md";
+
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-family-display: "Oswald", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-family-body: "Source Serif Pro", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --color-green-scalp: #136b09;
+  --color-green-scalp-light: #1da40e;
+}
+
+@utility grid-area-* {
+  grid-area: --value;
+}

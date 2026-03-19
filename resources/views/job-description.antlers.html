@@ -3,7 +3,7 @@
   <div class="relative bg-gray-800 pb-32">
     <div class="absolute inset-0">
       {{ unless featured_hero_image:src == '' }}
-        {{ responsive:featured_hero_image quality:webp="50" md:quality:webp="75" lg:quality:webp="100" class="h-full
+        {{ responsive:featured_hero_image quality:webp="50" md:quality:webp="75" lg:quality:webp="100" loading="eager" fetchpriority="high" class="h-full
       w-full
       object-cover" }}
       {{ /unless }}

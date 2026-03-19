@@ -1,0 +1,11 @@
+--- a/src/Parsers/PageDataParser.php
++++ b/src/Parsers/PageDataParser.php
+@@ -161,7 +161,7 @@
+     public static function generatePageTitle($data, $ctx)
+     {
+         if ($data->get('meta_title') && $data->get('meta_title')->raw()) {
+-            return Parse::template($data->get('meta_title'), $ctx);
++            return Parse::template($data->get('meta_title'), $ctx->toArray());
+         }
+
+         if ($data->get('response_code') === 404) {

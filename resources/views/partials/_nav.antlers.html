@@ -8,7 +8,7 @@
           @click="openMenu = !openMenu"
           @keydown.escape="open = false"
           type="button"
-          class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+          class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-indigo-500"
           aria-controls="mobile-menu"
           aria-expanded="false"
         >
@@ -52,14 +52,14 @@
         </button>
       </div>
       <div class="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
-        <a href="{{ url }}" class="flex flex-shrink-0 items-center">
-          {{ svg src="img/scalp-trade-logo_square-white-bg" class="w-12" }}
+        <a href="{{ url }}" aria-label="{{ site:name }} home" class="flex flex-shrink-0 items-center">
+          {{ svg src="img/scalp-trade-logo_square-white-bg" aria-hidden="true" class="w-12" }}
         </a>
         <div class="hidden md:ml-6 md:flex md:space-x-8">
           {{ nav:collection:pages include_home="true" }}
             <a
               href="{{ url }}"
-              class="{{ if is_current || is_parent }} border-green-scalp text-gray-900 {{else}} text-gray-600 hover:border-green-scalp-light hover:text-gray-700{{ /if }} inline-flex items-center border-b-4 border-transparent px-1 pt-1 text-base font-medium"
+              class="{{ if is_current || is_parent }} border-green-scalp text-gray-900 {{else}} text-gray-600 hover:border-green-scalp-light hover:text-gray-700{{ /if }} inline-flex items-center border-b-4 border-transparent px-1 pt-1 text-base font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-indigo-500"
             >
               {{ title }}
             </a>
@@ -75,7 +75,7 @@
       {{ nav:collection:pages include_home="true" }}
         <a
           href="{{ url }}"
-          class="{{ if is_current || is_parent }} bg-indigo-50 border-indigo-500 text-indigo-700 {{ /if }} block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+          class="{{ if is_current || is_parent }} bg-indigo-50 border-indigo-500 text-indigo-700 {{ /if }} block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-indigo-500"
         >
           {{ title }}
         </a>
