@@ -5,14 +5,22 @@
       <p class="mt-8 text-sm leading-5 text-gray-400 md:order-1 md:mt-0">
         &copy; {{ now | format:Y }} {{ site:name }}, Inc. All rights reserved.
       </p>
-      <button
-        type="button"
-        x-data
-        @click="$dispatch('open-cookie-settings')"
-        class="text-sm leading-5 text-gray-400 underline hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 md:order-2"
-      >
-        Cookie settings
-      </button>
+      <div class="flex gap-x-6 md:order-2">
+        <a
+          href="/privacy"
+          class="text-sm leading-5 text-gray-400 underline hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
+        >
+          Privacy policy
+        </a>
+        <button
+          type="button"
+          x-data
+          @click="$dispatch('open-cookie-settings')"
+          class="text-sm leading-5 text-gray-400 underline hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
+        >
+          Cookie settings
+        </button>
+      </div>
     </div>
   </div>
 </footer>
