@@ -1,0 +1,33 @@
+<div
+  x-data="cookieConsent"
+  x-cloak
+  x-show="open"
+  @open-cookie-settings.window="reopen()"
+  @keydown.escape.window="open && choose('denied')"
+  role="region"
+  aria-label="Cookie consent"
+  class="fixed inset-x-0 bottom-0 z-50 p-4"
+>
+  <div class="mx-auto flex max-w-3xl flex-col gap-4 rounded-lg bg-white p-6 shadow-lg ring-1 ring-gray-900/10 sm:flex-row sm:items-center">
+    <p class="flex-1 text-sm leading-6 text-gray-700">
+      We use cookies to understand how visitors use this site. Analytics cookies are only set if you accept.
+    </p>
+    <div class="flex shrink-0 gap-3">
+      <button
+        type="button"
+        @click="choose('denied')"
+        class="rounded-md px-3.5 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
+      >
+        Decline
+      </button>
+      <button
+        type="button"
+        x-ref="accept"
+        @click="choose('granted')"
+        class="rounded-md bg-indigo-600 px-3.5 py-2 text-sm font-semibold text-white hover:bg-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
+      >
+        Accept
+      </button>
+    </div>
+  </div>
+</div>

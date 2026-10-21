@@ -1,6 +1,6 @@
 {
   "resources/css/tailwind.css": {
-    "file": "assets/tailwind-CnXYvNx3.css",
+    "file": "assets/tailwind-D2IPla1q.css",
     "src": "resources/css/tailwind.css",
     "isEntry": true
   },
@@ -37,7 +37,7 @@
     "src": "resources/fonts/source-serif-pro-v15-latin-regular.woff2"
   },
   "resources/js/site.js": {
-    "file": "assets/site-2vgCDiiM.js",
+    "file": "assets/site-CNhSVXWd.js",
     "name": "site",
     "src": "resources/js/site.js",
     "isEntry": true

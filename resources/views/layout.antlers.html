@@ -13,8 +13,21 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
 
+      // Consent Mode v2: deny everything until the visitor opts in.
+      gtag("consent", "default", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+      });
+      try {
+        if (localStorage.getItem("cookie-consent") === "granted") {
+          gtag("consent", "update", { analytics_storage: "granted" });
+        }
+      } catch (e) {}
+
+      gtag("js", new Date());
       gtag("config", "G-WZB1205FR7");
     </script>
   </head>
@@ -23,5 +36,6 @@
     {{ partial:nav }}
     <main id="main-content">{{ template_content }}</main>
     {{ partial:footer }}
+    {{ partial:cookie-banner }}
   </body>
 </html>
