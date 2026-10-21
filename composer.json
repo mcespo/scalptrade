@@ -41,11 +41,6 @@
   "extra": {
     "laravel": {
       "dont-discover": []
-    },
-    "patches": {
-      "withcandour/aardvark-seo": {
-        "Fix Collection passed to Parse::template() on Statamic 6": "patches/aardvark-seo-collection-to-array.patch"
-      }
     }
   },
   "autoload": {
